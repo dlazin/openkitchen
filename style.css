@@ -474,12 +474,17 @@ label,
 .comment-form-email,
 .comment-form-url {
 	float: left;
+	margin-top: 0;
 	width: calc((100% - 80px) / 3);
 }
 
 .comment-form-author,
 .comment-form-email {
 	margin-right: 40px;
+}
+
+.ok-comments input[type="submit"] {
+	margin-top: 8px;
 }
 
 .ok-sidebar {

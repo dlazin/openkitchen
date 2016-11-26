@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-  <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter:400,400italic,700">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <?php wp_head(); ?>
-  </head>
-  <body <?php body_class(); ?>>
-    <div class="ok-wrapper">
-      <nav class="ok-nav">
-	      <div class="ok-site-name">
-	        <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
-	          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-	             title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-	             <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
-	         </a>
-	        <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
-	      </div>
-	      <a href="#" class="ok-menu-control" onclick="document.body.classList.toggle('ok-menu-visible')">
-          <svg class="ok-icon ok-icon-hamburger"><use href="#icon-hamburger" xlink:href="#icon-hamburger"></use></svg>
-        </a>
-        <div class="ok-menu">
-	        <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-	        <?php get_search_form(); ?>
-        </div>
-      </nav>
+	<head>
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter:400,400italic,700">
+		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+		<?php wp_head(); ?>
+	</head>
+	<body <?php body_class(); ?>>
+		<div class="ok-wrapper">
+			<nav class="ok-nav">
+				<div class="ok-site-name">
+					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
+							 title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+							 <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
+					 </a>
+					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
+				</div>
+				<a href="#" class="ok-menu-control" onclick="document.body.classList.toggle('ok-menu-visible')">
+					<svg class="ok-icon ok-icon-bars"><use href="#icon-bars" xlink:href="#icon-bars"></use></svg>
+				</a>
+				<div class="ok-menu">
+					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+					<?php get_search_form(); ?>
+				</div>
+			</nav>

@@ -1,7 +1,7 @@
-    </div>
+		</div>
 		<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<defs>
-				<symbol id="icon-hamburger" viewBox="0 0 27 32">
+				<symbol id="icon-bars" viewBox="0 0 27 32">
 					<path d="M27.429 24v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 14.857v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 5.714v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804z"></path>
 				</symbol>
 				<symbol id="icon-facebook" viewBox="0 0 19 32">
@@ -18,6 +18,6 @@
 				</symbol>
 			</defs>
 		</svg>
-    <?php wp_footer(); ?>
-  </body>
+		<?php wp_footer(); ?>
+	</body>
 </html>

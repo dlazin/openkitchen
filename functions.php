@@ -5,37 +5,37 @@ function openkitchen_setup() {
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-thumbnails' );
-  global $content_width;
-  if ( ! isset( $content_width ) ) $content_width = 640;
-  register_nav_menus(
-    array( 'main-menu' => __( 'Main Menu', 'openkitchen' ) )
-  );
+	global $content_width;
+	if ( ! isset( $content_width ) ) $content_width = 640;
+	register_nav_menus(
+		array( 'main-menu' => __( 'Main Menu', 'openkitchen' ) )
+	);
 }
 
 add_action( 'wp_enqueue_scripts', 'openkitchen_load_scripts' );
 function openkitchen_load_scripts() {
-  wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery' );
 }
 
 add_action( 'comment_form_before', 'openkitchen_enqueue_comment_reply_script' );
 function openkitchen_enqueue_comment_reply_script() {
-  if ( get_option( 'thread_comments' ) ) {
-  	wp_enqueue_script( 'comment-reply' );
-  }
+	if ( get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
 }
 
 add_filter( 'the_title', 'openkitchen_title' );
 function openkitchen_title( $title ) {
 	if ( $title == '' ) {
-	  return '&rarr;';
+		return '&rarr;';
 	} else {
-	  return $title;
-  }
+		return $title;
+	}
 }
 
 add_filter( 'wp_title', 'openkitchen_filter_wp_title' );
 function openkitchen_filter_wp_title( $title ) {
-  return $title . esc_attr( get_bloginfo( 'name' ) );
+	return $title . esc_attr( get_bloginfo( 'name' ) );
 }
 
 add_action( 'widgets_init', 'openkitchen_widgets_init' );

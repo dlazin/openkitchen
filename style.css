@@ -213,7 +213,7 @@ label,
 }
 
 .ok-wrapper {
-	margin-right: 24px;
+	display: flex;
 }
 
 .ok-nav {
@@ -449,7 +449,7 @@ label,
 
 .ok-comments {
 	background: #ebebeb;
-	margin: 40px -20px 24px -40px;
+	margin: 40px -20px 0 -40px;
 	padding: 40px 40px 16px;
 }
 
@@ -488,7 +488,7 @@ label,
 	border-left: 1px solid #c00;
 	float: left;
 	font: 400 14px / 20px Avenir, Helvetica, sans-serif;
-	margin-left: 19px;
+	margin: 0 24px 0 19px;
 	padding-left: 20px;
 	vertical-align: top;
 	width: 321px;
@@ -572,20 +572,24 @@ label,
 }
 
 @media screen and (max-width: 1066px) {
+	.ok-wrapper {
+		display: block;
+	}
+
 	.ok-content {
+		padding-right: 40px;
 		width: calc(100% - 220px);
+	}
+
+	.ok-comments {
+		margin-right: -40px;
 	}
 
 	.ok-sidebar {
 		border: 0;
-		margin: 0 -20px 0 200px;
+		margin: 20px 20px 20px 200px;
 		padding: 0;
-		width: calc(100% - 180px);
-	}
-
-	.ok-sidebar .textwidget {
-		margin: 0 -20px;
-		width: calc(100% + 40px);
+		width: calc(100% - 220px);
 	}
 
 	.ok-sidebar > * {
@@ -598,6 +602,10 @@ label,
 @media screen and (max-width: 742px) {
 	.ok-wrapper {
 		margin: 0;
+	}
+
+	.ok-content {
+		padding: 0;
 	}
 
 	.ok-nav {
@@ -658,7 +666,7 @@ label,
 	}
 
 	.ok-comments {
-		margin: 0 -20px;
+		margin: 0 -16px;
 		padding: 40px 16px 16px;
 	}
 

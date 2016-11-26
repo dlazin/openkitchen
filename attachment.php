@@ -11,7 +11,7 @@
 		<?php get_template_part( 'entry', 'meta' ); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="header">
-				<nav id="nav-above" class="navigation" role="navigation">
+				<nav id="nav-above" class="navigation">
 					<div class="nav-previous"><?php previous_image_link( false, '&larr;' ); ?></div>
 					<div class="nav-next"><?php next_image_link( false, '&rarr;' ); ?></div>
 				</nav>

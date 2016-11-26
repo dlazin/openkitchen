@@ -170,6 +170,8 @@ input[type="text"] {
 }
 
 .ok-newsletter-form {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
@@ -190,6 +192,8 @@ input[type="text"] {
 }
 
 .ok-newsletter-form .ok-newsletter-submit {
+	-ms-flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
 	margin: 0 0 0 8px;
 }
@@ -208,6 +212,8 @@ label,
 }
 
 .ok-wrapper {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
@@ -290,15 +296,18 @@ label,
 }
 
 .ok-search-form {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
 .ok-search-form .ok-search-field {
-	flex: 1 1 auto;
 	font: 500 12px Avenir, Helvetica, sans-serif;
 }
 
 .ok-search-form .ok-search-submit {
+	-ms-flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
 	margin: 0 0 0 8px;
 }

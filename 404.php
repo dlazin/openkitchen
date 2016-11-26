@@ -1,14 +1,8 @@
 <?php get_header(); ?>
-<section id="content" role="main">
-<article id="post-0" class="post not-found">
-<header class="header">
-<h1 class="entry-title"><?php _e( 'Not Found', 'leanne-brown' ); ?></h1>
-</header>
-<section class="entry-content">
-<p><?php _e( 'Nothing found for the requested page. Try a search instead?', 'leanne-brown' ); ?></p>
-<?php get_search_form(); ?>
-</section>
-</article>
+<section class="ok-content">
+  <h1 class="ok-title"><?php _e( 'Not Found', 'openkitchen' ); ?></h1>
+  <p><?php _e( 'Nothing found for the requested page. Try a search instead?', 'openkitchen' ); ?></p>
+  <?php get_search_form(); ?>
 </section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -1,3 +1,4 @@
+</section>
 <div class="ok-sidebar">
 	<div>
 		<a href="/about/">
@@ -54,7 +55,7 @@
 	<div>
 		<h2>Sign up for my newsletter!</h2>
 		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
-	        method="post" class="ok-newsletter-form" target="_blank" novalidate>
+		      method="post" class="ok-newsletter-form" target="_blank" novalidate>
 			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
 			<span style="position: absolute; left: -5000px;" aria-hidden="true">
 				<input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" value="" tabindex="-1">

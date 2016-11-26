@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <?php global $post; ?>
-<section class="ok-content">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<h1 class="ok-title">
 			<?php the_title(); ?> <span class="meta-sep">|</span>
@@ -41,6 +40,5 @@
 		</article>
 		<?php comments_template(); ?>
 	<?php endwhile; endif; ?>
-</section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

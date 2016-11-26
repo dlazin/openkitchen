@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<section class="ok-content">
 	<h1 class="ok-title">
 		<?php 
 		if ( is_day() ) { printf( __( 'Daily Archives: %s', 'openkitchen' ), get_the_time( get_option( 'date_format' ) ) ); }
@@ -12,6 +11,5 @@
 		<?php get_template_part( 'entry' ); ?>
 	<?php endwhile; endif; ?>
 	<?php get_template_part( 'nav', 'below' ); ?>
-</section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

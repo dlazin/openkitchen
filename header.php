@@ -23,6 +23,10 @@
 				</div>
 				<div class="ok-menu">
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-					<?php get_search_form(); ?>
+					<form role="search" method="get" class="ok-search-form" action="<?php echo home_url( '/' ); ?>">
+						<input type="text" class="ok-search-field" name="s" value="SEARCH"
+						       onfocus="if (this.value == 'SEARCH') {this.value = '';}"
+						       onblur="if (this.value == '') {this.value = 'SEARCH';}">
+					</form>
 				</div>
 			</nav>

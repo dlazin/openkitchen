@@ -9,7 +9,10 @@
 <?php else : ?>
 	<h1 class="ok-title"><?php _e( 'Nothing Found', 'openkitchen' ); ?></h1>
 	<p><?php _e( 'Sorry, nothing matched your search. Please try again.', 'openkitchen' ); ?></p>
-	<?php get_search_form(); ?>
+	<form role="search" method="get" class="ok-search-form" action="<?php echo home_url( '/' ); ?>">
+		<input type="text" class="ok-search-field" name="s" value="<?php echo get_search_query() ?>">
+		<input type="submit" class="ok-search-submit" value="Search">
+	</form>
 <?php endif; ?>
 </section>
 <?php get_sidebar(); ?>

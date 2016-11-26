@@ -19,5 +19,11 @@
 	<nav class="ok-pagination">
 		<?php paginate_comments_links(); ?>
 	</nav>
-	<?php endif; endif; endif; if ( comments_open() ) comment_form(); ?>
+	<?php endif; endif; endif; if ( comments_open() ) comment_form( array(
+		'cancel_reply_before' => '<span class="reply">',
+		'cancel_reply_after' => '</span>',
+		'comment_notes_before' => __( '(Don\'t worry, your email address won\'t be published.)', 'openkitchen' ),
+		'label_submit' => __( 'Submit', 'openkitchen' ),
+		'title_reply' => __( 'Tell me what you think!', 'openkitchen' ),
+	) ); ?>
 </section>

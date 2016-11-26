@@ -113,7 +113,6 @@ input[type="submit"] {
 	font: 500 14px Bitter, serif;
 	height: 32px;
 	line-height: 30px;
-	margin: 0 8px 8px 0;
 	outline: 0;
 	overflow: hidden;
 	padding: 0 8px;
@@ -157,9 +156,9 @@ input[type="text"],
 textarea {
 	border: 1px solid #c00;
 	border-radius: 2px;
-	font: 14px Avenir, Helvetica, sans-serif;
+	font: 14px / 20px Avenir, Helvetica, sans-serif;
 	outline: 0;
-	padding: 0 8px;
+	padding: 5px 8px;
 	vertical-align: middle;
 	width: 100%;
 }
@@ -195,7 +194,7 @@ input[type="text"] {
 	-ms-flex: 0 0 auto;
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
-	margin: 0 0 0 8px;
+	margin-left: 8px;
 }
 
 label,
@@ -220,6 +219,7 @@ label,
 .ok-nav {
 	background: #ffa726;
 	bottom: 0;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
 	left: 0;
 	overflow-y: auto;
 	padding: 16px;
@@ -302,14 +302,14 @@ label,
 }
 
 .ok-search-form .ok-search-field {
-	font: 500 12px Avenir, Helvetica, sans-serif;
+	font: 500 12px / 12px Avenir, Helvetica, sans-serif;
 }
 
 .ok-search-form .ok-search-submit {
 	-ms-flex: 0 0 auto;
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
-	margin: 0 0 0 8px;
+	margin-left: 8px;
 }
 
 .ok-nav .ok-search-field {
@@ -441,8 +441,18 @@ label,
 	padding: 40px 40px 16px;
 }
 
-.ok-comments-title {
+.ok-comments-title,
+.comment-reply-title {
 	margin-top: 0;
+}
+
+.ok-comments-list .comment-respond,
+.ok-comments-list + .comment-respond {
+	margin-top: 40px;
+}
+
+.comment-respond .reply {
+	float: right;
 }
 
 .ok-comments .children {
@@ -490,7 +500,7 @@ label,
 	width: 100%;
 }
 
-.ok-social {
+.ok-sidebar-social {
 	list-style-type: none;
 	margin: 0 -8px;
 }
@@ -513,7 +523,7 @@ label,
 	width: 24px;
 }
 
-.ok-social .ok-icon {
+.ok-sidebar-social .ok-icon {
 	fill: #fff;
 	margin: 7px;
 	transition: fill .2s;
@@ -553,6 +563,10 @@ label,
 
 .ok-icon-pinterest:hover .ok-icon {
 	fill: #bd081c;
+}
+
+.ok-sidebar-book .button {
+	margin: 0 8px 8px 0;
 }
 
 .ok-content-ad {
@@ -597,7 +611,6 @@ label,
 	}
 
 	.ok-nav {
-		box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
 		bottom: auto;
 		overflow: visible;
 		text-align: left;

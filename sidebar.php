@@ -11,7 +11,7 @@
 			Hi! <a href="/about/">I'm Leanne Brown</a>, an avid home cook in Brooklyn by way of Canada.
 			I write cookbooks, like the one below!
 		</p>
-		<ul class="ok-social">
+		<ul class="ok-sidebar-social">
 			<li class="ok-icon-wrapper ok-icon-facebook"><a href="https://www.facebook.com/eatgoodandcheap">
 				<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
 			</a></li>
@@ -26,7 +26,7 @@
 			</a></li>
 		</ul>
 	</div>
-	<div>
+	<div class="ok-sidebar-book">
 		<a href="/good-and-cheap.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF image');">
 			<img src="/wp-content/themes/openkitchen/images/good-and-cheap-sidebar-1x.jpg"

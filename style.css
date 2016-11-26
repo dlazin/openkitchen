@@ -169,34 +169,29 @@ input[type="text"] {
 	height: 32px;
 }
 
-.newsletter .mc-field-group {
-	margin-right: 8px;
-	width: calc(100% - 118px);
+.ok-newsletter-form {
+	display: flex;
 }
 
-.newsletter span {
-	display: inline-block;
-}
-
-.newsletter ::-webkit-input-placeholder {
+.ok-newsletter-field ::-webkit-input-placeholder {
 	color: #757575;
 }
 
-.newsletter :-moz-placeholder {
+.ok-newsletter-field :-moz-placeholder {
 	color: #757575;
 }
 
-.newsletter ::-moz-placeholder {
+.ok-newsletter-field ::-moz-placeholder {
 	color: #757575;
 }
 
-.newsletter :-ms-input-placeholder {
+.ok-newsletter-field :-ms-input-placeholder {
 	color: #757575;
 }
 
-.newsletter .button {
-	margin: 0;
-	width: 100px;
+.ok-newsletter-form .ok-newsletter-submit {
+	flex: 0 0 auto;
+	margin: 0 0 0 8px;
 }
 
 label,
@@ -311,22 +306,6 @@ label,
 .ok-nav .ok-search-field {
 	margin: 24px 0 0;
 	text-align: right;
-}
-
-.ok-search-field ::-webkit-input-placeholder {
-	color: #212121;
-}
-
-.ok-search-field :-moz-placeholder {
-	color: #212121;
-}
-
-.ok-search-field ::-moz-placeholder {
-	color: #212121;
-}
-
-.ok-search-field :-ms-input-placeholder {
-	color: #212121;
 }
 
 .ok-content {

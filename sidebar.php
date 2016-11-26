@@ -51,7 +51,17 @@
 	<div class="ok-full-bleed">
 		<div style="background: #ccc; width: 300px; height: 250px"></div>
 	</div>
-	<div id="mc_embed_signup"><h2>Sign up for my newsletter!</h2><form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter" target="_blank" novalidate=""><div id="mc_embed_signup_scroll"><span class="mc-field-group"><input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email@example.com"></span><span id="mce-responses" class="clear"><span class="response" id="mce-error-response" style="display:none"></span><span class="response" id="mce-success-response" style="display:none"></span></span><!-- this span fools spam --><span style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" tabindex="-1" value=""></span><span class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></span></div></form></div>
+	<div>
+		<h2>Sign up for my newsletter!</h2>
+		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
+	        method="post" class="ok-newsletter-form" target="_blank" novalidate>
+			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
+			<span style="position: absolute; left: -5000px;" aria-hidden="true">
+				<input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" value="" tabindex="-1">
+			</span>
+			<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
+		</form>
+	</div>
 	<?php if ( is_active_sidebar( 'primary-widget-area' ) ) : ?>
 	<ul class="ok-sidebar-list">
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>

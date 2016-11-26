@@ -11,17 +11,17 @@
 			I write cookbooks, like the one below!
 		</p>
 		<ul class="ok-social">
-			<li><a href="https://www.facebook.com/eatgoodandcheap">
-				<svg class="ok-icon ok-icon-facebook"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
+			<li class="ok-icon-wrapper ok-icon-facebook"><a href="https://www.facebook.com/eatgoodandcheap">
+				<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
 			</a></li>
-			<li><a href="https://twitter.com/leelb">
-				<svg class="ok-icon ok-icon-twitter"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
+			<li class="ok-icon-wrapper ok-icon-twitter"><a href="https://twitter.com/leelb">
+				<svg class="ok-icon"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
 			</a></li>
-			<li><a href="https://www.instagram.com/leanneebrown/">
-				<svg class="ok-icon ok-icon-instagram"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
+			<li class="ok-icon-wrapper ok-icon-instagram"><a href="https://www.instagram.com/leanneebrown/">
+				<svg class="ok-icon"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
 			</a></li>
-			<li><a href="hhttps://www.pinterest.com/leanneebrown/">
-				<svg class="ok-icon ok-icon-pinterest"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
+			<li class="ok-icon-wrapper ok-icon-pinterest"><a href="https://www.pinterest.com/leanneebrown/">
+				<svg class="ok-icon"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
 			</a></li>
 		</ul>
 	</div>

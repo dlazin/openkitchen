@@ -12,16 +12,54 @@ function openkitchen_setup() {
 	);
 }
 
-add_action( 'wp_enqueue_scripts', 'openkitchen_load_scripts' );
-function openkitchen_load_scripts() {
-	wp_enqueue_script( 'jquery' );
-}
-
 add_action( 'comment_form_before', 'openkitchen_enqueue_comment_reply_script' );
 function openkitchen_enqueue_comment_reply_script() {
 	if ( get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+}
+
+add_action( 'wp_default_scripts', 'remove_unnecessary' );
+function remove_unnecessary( $scripts ) {
+	if ( is_admin() ) return;
+
+	// Remove jQuery and the oEmbed script.
+	$scripts->remove( 'jquery' );
+	$scripts->remove( 'wp-embed' );
+
+	// Remove WordPress Ultimate Recipe Plugin CSS and font.
+	wp_dequeue_style( 'wpurp_style_minified' );
+	wp_dequeue_style( 'wpurp_style1' );
+
+	// Remove the oEmbed REST API endpoint.
+	remove_action( 'rest_api_init', 'wp_oembed_register_route' );
+	 
+	// Turn off oEmbed auto discovery.
+	add_filter( 'embed_oembed_discover', '__return_false' );
+	 
+	// Don't filter oEmbed results.
+	remove_filter( 'oembed_dataparse', 'wp_filter_oembed_result', 10 );
+	 
+	// Remove oEmbed discovery links.
+	remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
+	 
+	// Remove oEmbed-specific JavaScript from the front-end and back-end.
+	remove_action( 'wp_head', 'wp_oembed_add_host_js' );
+	 
+	// Remove all embeds rewrite rules.
+	add_filter( 'rewrite_rules_array', 'disable_embeds_rewrites' );
+
+	// Remove emoji support for old browsers.
+	remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+	remove_action( 'wp_print_styles', 'print_emoji_styles' );
+	add_filter( 'emoji_svg_url', '__return_false' );
+}
+
+add_filter('style_loader_src', '_remove_script_version', 15, 1);
+add_filter('script_loader_src', '_remove_script_version', 15, 1);
+function _remove_script_version($src) {
+	$parts = explode('?ver', $src);
+	return $parts[0];
 }
 
 add_filter( 'the_title', 'openkitchen_title' );

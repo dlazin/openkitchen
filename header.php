@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,400italic,700">
 		<style><?php echo file_get_contents( get_stylesheet_uri() ); ?></style>
 		<?php wp_head(); ?>
 	</head>

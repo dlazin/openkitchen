@@ -14,36 +14,6 @@ Open Kitchen WordPress Theme © 2016 Dan Lazin
 Open Kitchen is distributed under the terms of the GNU GPL
 */
 
-@font-face {
-	font-family: 'Bitter';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Bitter-Regular'),
-	     url(https://fonts.gstatic.com/s/bitter/v10/HEpP8tJXlWaYHimsnXgfCOvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2'),
-	     url(https://fonts.gstatic.com/s/bitter/v10/2PcBT6-VmYhQCus-O11S5-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Bitter-Bold'),
-       url(https://fonts.gstatic.com/s/bitter/v10/evC1haE-MsorTl_A7_uSGZBw1xU1rKptJj_0jans920.woff2) format('woff2'),
-       url(https://fonts.gstatic.com/s/bitter/v10/evC1haE-MsorTl_A7_uSGbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Bitter';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Bitter-Italic'),
-       url(https://fonts.gstatic.com/s/bitter/v10/-t3SK6sofTjAH0MNf_tLaHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2'),
-       url(https://fonts.gstatic.com/s/bitter/v10/eMS0tViDqryBl0EG1pqFZXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

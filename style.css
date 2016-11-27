@@ -721,10 +721,6 @@ label,
 }
 
 @media screen and (max-width: 742px) {
-	.ok-wrapper {
-		margin: 0;
-	}
-
 	.ok-content {
 		padding: 0;
 	}
@@ -820,5 +816,22 @@ label,
 	.ok-site-name,
 	.ok-site-name > h1 {
 		font-size: 28px;
+	}
+}
+
+@media print {
+	.ok-comments,
+	.ok-content-ad,
+	.ok-content-footer,
+	.ok-menu,
+	.ok-nav,
+	.ok-sidebar {
+		display: none;
+	}
+
+	.ok-content {
+		margin: 0;
+		max-width: none;
+		width: 100%;
 	}
 }

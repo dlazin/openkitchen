@@ -42,7 +42,20 @@ h4,
 h5,
 h6 {
 	font-weight: bold;
+	line-height: 1;
 	margin: 40px 0 16px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 article,
@@ -243,14 +256,14 @@ label,
 
 .ok-site-name, 
 .ok-site-name > h1 {
-	color: white;
+	color: #fff;
 	font: bold 32px / 32px Bitter, serif;
 	margin: 24px 0 40px;
 	text-transform: uppercase;
 }
 
 .ok-site-name a {
-	color: white;
+	color: #fff;
 }
 
 .ok-site-name a:hover,
@@ -269,13 +282,16 @@ label,
 }
 
 .ok-menu-control,
-.ok-comments-list .says {
+.ok-comments-list .says,
+.ok-newsletter-mobile {
 	display: none;
 }
 
 .menu,
 .ok-comments-list,
-.ok-comments .children {
+.ok-comments .children,
+.ok-sidebar-social,
+.ok-widget-list {
 	list-style: none;
 }
 
@@ -323,13 +339,7 @@ label,
 	max-width: 1024px;
 	vertical-align: top;
 	width: 728px;
-	width: calc(100% - 560px);
-}
-
-.ok-title {
-	font-size: 32px;
-	line-height: 32px;
-	margin-top: 40px;
+	width: calc(100% - 584px);
 }
 
 .ok-title > a {
@@ -436,7 +446,7 @@ label,
 }
 
 .ok-comments {
-	background: #ebebeb;
+	background: #eceff1;
 	margin: 40px -20px 0 -40px;
 	padding: 40px 40px 16px;
 }
@@ -506,7 +516,6 @@ label,
 }
 
 .ok-sidebar-social {
-	list-style-type: none;
 	margin: 0 -8px;
 }
 
@@ -553,12 +562,12 @@ label,
 }
 
 .ok-icon-instagram {
-	background: #757575;
-	border: 1px solid #757575;
+	background: #ffa726;
+	border: 1px solid #ffa726;
 }
 
 .ok-icon-instagram:hover .ok-icon {
-	fill: #757575;
+	fill: #ffa726;
 }
 
 .ok-icon-pinterest {
@@ -578,8 +587,68 @@ label,
 	margin-top: 40px;
 }
 
+.ok-content-footer {
+	margin: 0 -20px 0 -40px;
+	overflow: auto;
+	padding: 30px;
+}
+
+.ok-content #ok-footer-widgets img,
+.ok-sidebar #ok-sidebar-widgets img {
+	border: none;
+	position: absolute;
+	width: 100%;
+}
+
+.ok-content #ok-footer-widgets .gallery-caption,
+.ok-sidebar #ok-sidebar-widgets .gallery-caption {
+	bottom: 0;
+	color: #fff;
+	font: bold 20px / 20px Avenir, Helvetica, sans-serif;
+	left: 0;
+	margin: 0;
+	padding: 8px;
+	position: absolute;
+	text-align: left;
+}
+
+.ok-content #ok-footer-widgets .gallery-item {
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+	width: calc((100% - 40px) / 2);
+}
+
+.ok-sidebar #ok-sidebar-widgets .gallery-item {
+	margin: 0 0 40px;
+	position: relative;
+}
+
+.gallery-icon {
+	overflow: hidden;
+	padding-bottom: 65%;
+	position: relative;
+}
+
+.gallery-icon::after {
+	bottom: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0, rgba(0,0,0,.65) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)),
+		                         color-stop(100%, rgba(0,0,0,.65)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0, rgba(0,0,0,.65) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0, rgba(0,0,0,.65) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0, rgba(0,0,0,.65) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,.65) 100%);
+	content: '';
+	display: block;
+	position: absolute;
+	height: 60px;
+	width: 100%;
+}
+
 @media screen and (max-width: 1066px) {
-	.ok-wrapper {
+	.ok-wrapper,
+	.ok-newsletter-mobile {
 		display: block;
 	}
 
@@ -604,6 +673,12 @@ label,
 		margin: 20px;
 		width: calc((100% - 80px) / 2);
 	}
+
+	.ok-content-footer,
+	.ok-newsletter-desktop,
+	.ok-widget-list {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 742px) {
@@ -623,7 +698,7 @@ label,
 	}
 
 	.ok-menu-control {
-		color: white;
+		color: #fff;
 		display: block;
 		font: bold 48px / 32px Times New Roman, serif;
 		margin: 0;

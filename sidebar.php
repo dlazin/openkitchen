@@ -1,3 +1,10 @@
+	<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+	<div class="ok-content-footer">
+		<ul class="ok-widget-list" id="ok-footer-widgets">
+			<?php dynamic_sidebar( 'footer-widgets' ); ?>
+		</ul>
+	</div>
+	<?php endif; ?>
 </section>
 <div class="ok-sidebar">
 	<div>
@@ -25,6 +32,17 @@
 				<svg class="ok-icon"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
 			</a></li>
 		</ul>
+		<div class="ok-newsletter-mobile">
+			<h3>Sign up for my newsletter!</h3>
+			<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
+			      method="post" class="ok-newsletter-form" target="_blank" novalidate>
+				<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
+				<span style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" value="" tabindex="-1">
+				</span>
+				<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
+			</form>
+		</div>
 	</div>
 	<div class="ok-sidebar-book">
 		<a href="/good-and-cheap.pdf" target="_blank"
@@ -52,8 +70,8 @@
 	<div class="ok-full-bleed">
 		<div style="background: #ccc; width: 300px; height: 250px"></div>
 	</div>
-	<div>
-		<h2>Sign up for my newsletter!</h2>
+	<div class="ok-newsletter-desktop">
+		<h3>Sign up for my newsletter!</h3>
 		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
 		      method="post" class="ok-newsletter-form" target="_blank" novalidate>
 			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
@@ -63,9 +81,9 @@
 			<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
 		</form>
 	</div>
-	<?php if ( is_active_sidebar( 'primary-widget-area' ) ) : ?>
-	<ul class="ok-sidebar-list">
-		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
+	<?php if ( is_active_sidebar( 'sidebar-widgets' ) ) : ?>
+	<ul class="ok-widget-list" id="ok-sidebar-widgets">
+		<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
 	</ul>
 	<?php endif; ?>
 </div>

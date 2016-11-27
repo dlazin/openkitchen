@@ -41,8 +41,16 @@ function openkitchen_filter_wp_title( $title ) {
 add_action( 'widgets_init', 'openkitchen_widgets_init' );
 function openkitchen_widgets_init() {
 	register_sidebar( array (
+		'name' => __( 'Footer Widgets', 'openkitchen' ),
+		'id' => 'footer-widgets',
+		'before_widget' => '<li class="%2$s">',
+		'after_widget' => "</li>",
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+	register_sidebar( array (
 		'name' => __( 'Sidebar Widgets', 'openkitchen' ),
-		'id' => 'primary-widget-area',
+		'id' => 'sidebar-widgets',
 		'before_widget' => '<li class="%2$s">',
 		'after_widget' => "</li>",
 		'before_title' => '<h3>',

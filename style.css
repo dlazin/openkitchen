@@ -395,14 +395,20 @@ label,
 }
 
 .wpurp-recipe-instruction .wpurp-rows {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
 .wpurp-recipe-instruction .wpurp-rows-row {
+	-ms-flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
 	flex: 1 1 auto;
 }
 
 .wpurp-recipe-instruction .wpurp-rows-row + .wpurp-rows-row {
+	-ms-flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
 	flex: 1 0 auto;
 }
 

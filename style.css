@@ -365,18 +365,63 @@ label,
 	font: bold 28px / 28px Bitter, serif;
 }
 
-.wpurp-title {
+.wpurp-title,
+.wpurp-recipe-ingredient-group {
+	display: block;
 	font: bold 14px / 20px Avenir, Helvetica, sans-serif;
+	margin: 40px 0 0;
 	text-transform: uppercase;
 }
 
 .wpurp-recipe-ingredient-group {
 	font: 500 12px / 20px Avenir, Helvetica, sans-serif;
-	text-transform: uppercase;
 }
 
 .wpurp-recipe-ingredient-container {
 	list-style-type: none;
+}
+
+.wpurp-recipe-tags {
+	list-style-type: none;
+	margin: 28px 0 0;
+}
+
+.wpurp-recipe-tag-terms {
+	margin-left: 16px;
+}
+
+.wpurp-table td {
+	padding-right: 16px;
+}
+
+.wpurp-recipe-instruction .wpurp-rows {
+	display: flex;
+}
+
+.wpurp-recipe-instruction .wpurp-rows-row {
+	flex: 1 1 auto;
+}
+
+.wpurp-recipe-instruction .wpurp-rows-row + .wpurp-rows-row {
+	flex: 1 0 auto;
+}
+
+.wpurp-recipe-instruction-image {
+	margin-left: 20px;
+	max-width: 300px;
+}
+
+.wpurp-recipe-image,
+.wpurp-responsive-desktop,
+.recipe-tooltip-content {
+	display: none;
+}
+
+.wpurp-recipe-servings-type,
+.wpurp-recipe-prep-time-text,
+.wpurp-recipe-cook-time-text,
+.wpurp-recipe-passive-time-text {
+	margin-left: 4px;
 }
 
 .wpurp-recipe-ingredient {
@@ -392,11 +437,6 @@ label,
 .wpurp-recipe-ingredient-notes {
 	color: #757575;
 	margin-left: 4px;
-}
-
-.wpurp-container > .wpurp-rows > .wpurp-rows-row,
-.wpurp-recipe-ingredients .wpurp-rows > .wpurp-rows-row {
-	margin: 16px 0;
 }
 
 .wpurp-recipe-instruction {

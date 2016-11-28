@@ -7,7 +7,6 @@
 			   title="<?php printf( __( 'Return to %s', 'openkitchen' ), esc_html( get_the_title( $post->post_parent ), 1 ) ); ?>" 
 			   rev="attachment"><span class="meta-nav">&larr; </span><?php echo get_the_title( $post->post_parent ); ?></a>
 		</h1>
-		<?php get_template_part( 'entry', 'meta' ); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="header">
 				<nav id="nav-above" class="navigation">

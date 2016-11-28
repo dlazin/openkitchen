@@ -1,0 +1,1 @@
+<p>This recipe is from my first book, <i><a href="/cookbooks/">From Scratch</a></i>.</p>

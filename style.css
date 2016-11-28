@@ -114,6 +114,7 @@ a:focus {
 
 .ok-comments .reply > a,
 .ok-pagination > a,
+.more-link,
 .button,
 button,
 input[type="submit"] {
@@ -150,15 +151,23 @@ input[type="submit"]:focus {
 }
 
 .ok-comments .reply > a,
-.ok-pagination > a {
+.ok-pagination > a,
+.more-link {
 	background: #fff;
 	color: #c00;
+}
+
+.more-link {
+	display: table;
+	margin: 16px 0;
 }
 
 .ok-comments .reply > a:hover,
 .ok-comments .reply > a:focus,
 .ok-pagination > a:hover,
-.ok-pagination > a:focus {
+.ok-pagination > a:focus,
+.more-link:hover,
+.more-link:focus {
 	background: #c00;
 	color: #fff;
 	text-decoration: none;

@@ -113,3 +113,24 @@ function openkitchen_comments_number( $count ) {
 		return $count;
 	}
 }
+
+add_shortcode( 'ad', 'ad_func' );
+function ad_func( $atts ) {
+	ob_start();
+	get_template_part( 'shortcode', 'ad' );
+	return ob_get_clean();
+}
+
+add_shortcode( 'fs', 'fromscratch_func' );
+function fromscratch_func( $atts ) {
+	ob_start();
+	get_template_part( 'shortcode', 'fs' );
+	return ob_get_clean();
+}
+
+add_shortcode( 'gc', 'goodandcheap_func' );
+function goodandcheap_func( $atts ) {
+	ob_start();
+	get_template_part( 'shortcode', 'gc' );
+	return ob_get_clean();
+}

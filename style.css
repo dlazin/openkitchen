@@ -365,6 +365,18 @@ label,
 	color: #c00;
 }
 
+.ok-shortcode-ad {
+	margin: 16px 0;
+}
+
+.ok-shortcode-book {
+	float: left;
+	font: 400 14px / 20px Avenir, Helvetica, sans-serif;
+	margin: -12px 40px 0 0;
+	max-width: 240px;
+	width: calc((100% - 40px) / 2);
+}
+
 .wpurp-recipe-title {
 	color: #607d8b;
 	display: block;
@@ -678,6 +690,7 @@ label,
 	fill: #bd081c;
 }
 
+.ok-shortcode-book .button,
 .ok-sidebar-book .button {
 	margin: 0 8px 8px 0;
 }
@@ -832,9 +845,16 @@ label,
 	}
 
 	.ok-content {
-		margin: 0 16px;
+		margin: 24px 16px 0;
 		padding: 0;
 		width: calc(100% - 32px);
+	}
+
+	.ok-shortcode-book {
+		float: none;
+		margin: 0;
+		max-width: none;
+		width: 100%;
 	}
 
 	.ok-pagination {

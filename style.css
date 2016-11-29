@@ -294,9 +294,17 @@ label,
 	fill: #fff;
 }
 
+.home .ok-shortcode-ad,
+.home .ok-shortcode-book,
 .ok-menu-control,
 .ok-comments-list .says,
-.ok-newsletter-mobile {
+.ok-newsletter-mobile,
+.recipe-tooltip-content,
+.wpurp-recipe-description,
+.wpurp-recipe-image,
+.wpurp-recipe-servings-type,
+.wpurp-recipe-tags,
+.wpurp-responsive-desktop {
 	display: none;
 }
 
@@ -372,7 +380,7 @@ label,
 .ok-shortcode-book {
 	float: left;
 	font: 400 14px / 20px Avenir, Helvetica, sans-serif;
-	margin: -12px 40px 0 0;
+	margin-right: 40px;
 	max-width: 240px;
 	width: calc((100% - 40px) / 2);
 }
@@ -439,15 +447,6 @@ label,
 .wpurp-recipe-instruction-image {
 	margin-left: 20px;
 	max-width: 300px;
-}
-
-.wpurp-recipe-description,
-.wpurp-recipe-image,
-.wpurp-recipe-servings-type,
-.wpurp-recipe-tags,
-.wpurp-responsive-desktop,
-.recipe-tooltip-content {
-	display: none;
 }
 
 .wpurp-recipe-ingredient {

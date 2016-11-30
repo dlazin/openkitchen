@@ -385,7 +385,7 @@ br,
 .ok-shortcode-cost {
 	background: #fff;
 	font: bold 12px / 16px Avenir, Helvetica, sans-serif;
-	margin-top: 40px;
+	margin-top: 48px;
 	padding: 8px 8px 8px 20px;
 	position: absolute;
 	text-align: right;
@@ -867,6 +867,10 @@ br,
 		margin: 0;
 		max-width: none;
 		width: 100%;
+	}
+
+	.ok-shortcode-cost {
+		margin-left: -16px;
 	}
 
 	.ok-pagination {

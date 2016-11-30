@@ -41,6 +41,7 @@ h3,
 h4,
 h5,
 h6 {
+	color: #455a64;
 	font-weight: bold;
 	line-height: 1;
 	margin: 40px 0 16px;
@@ -366,7 +367,7 @@ br,
 }
 
 .ok-title > a {
-	color: #212121;
+	color: #455a64;
 	text-decoration: none;
 }
 
@@ -393,7 +394,7 @@ br,
 }
 
 .wpurp-recipe-title {
-	color: #607d8b;
+	color: #455a64;
 	display: block;
 	font: bold 28px / 28px Bitter, serif;
 	margin-top: 40px;
@@ -409,7 +410,7 @@ br,
 }
 
 .wpurp-title {
-	background: #607d8b;
+	background: #546e7a;
 	border-radius: 2px;
 	color: #fff;
 	display: inline-block;

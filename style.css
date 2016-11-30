@@ -101,7 +101,8 @@ p {
 	margin: 16px 0;
 }
 
-a {
+:link,
+:visited {
 	color: #c00;
 	outline: 0;
 	text-decoration: none;
@@ -294,6 +295,7 @@ label,
 	fill: #fff;
 }
 
+br,
 .home .ok-shortcode-ad,
 .home .ok-shortcode-book,
 .ok-menu-control,
@@ -374,15 +376,20 @@ label,
 }
 
 .ok-shortcode-ad {
+	clear: both;
 	margin: 16px 0;
 }
 
 .ok-shortcode-book {
 	float: left;
-	font: 400 14px / 20px Avenir, Helvetica, sans-serif;
-	margin-right: 40px;
+	font: 14px / 20px Avenir, Helvetica, sans-serif;
+	margin: 0 40px 40px 0;
 	max-width: 240px;
 	width: calc((100% - 40px) / 2);
+}
+
+.wpurp-container {
+	clear: both;
 }
 
 .wpurp-recipe-title {
@@ -394,7 +401,8 @@ label,
 
 .wpurp-title,
 .wpurp-recipe-ingredient-group {
-	font: bold 14px / 20px Avenir, Helvetica, sans-serif;
+	display: block;
+	font: 12px / 20px Avenir, Helvetica, sans-serif;
 	letter-spacing: 2px;
 	margin: 40px 0 0;
 	text-transform: uppercase;
@@ -405,13 +413,9 @@ label,
 	border-radius: 2px;
 	color: #fff;
 	display: inline-block;
+	font-weight: bold;
 	margin-left: -50px;
 	padding: 4px 20px 4px 50px;
-}
-
-.wpurp-recipe-ingredient-group {
-	display: block;
-	font: 500 12px / 20px Avenir, Helvetica, sans-serif;
 }
 
 .wpurp-recipe-ingredient-container {
@@ -610,7 +614,7 @@ label,
 .ok-sidebar {
 	border-left: 1px solid #c00;
 	float: left;
-	font: 400 14px / 20px Avenir, Helvetica, sans-serif;
+	font: 14px / 20px Avenir, Helvetica, sans-serif;
 	margin: 0 24px 0 19px;
 	padding-left: 20px;
 	vertical-align: top;

@@ -863,10 +863,12 @@ br,
 	}
 
 	.ok-shortcode-book {
-		float: none;
-		margin: 0;
-		max-width: none;
-		width: 100%;
+		margin-right: 20px;
+		width: calc((100% - 20px) / 2);
+	}
+
+	.ok-shortcode-book .ok-full-bleed {
+		width: calc(100% + 16px);
 	}
 
 	.ok-shortcode-cost {
@@ -912,7 +914,6 @@ br,
 	.ok-full-bleed,
 	.ok-sidebar .ok-full-bleed {
 		margin-left: -16px;
-		margin-right: -16px;
 		max-width: calc(100% + 32px);
 		width: calc(100% + 32px);
 	}

@@ -115,22 +115,33 @@ function openkitchen_comments_number( $count ) {
 }
 
 add_shortcode( 'ad', 'ad_func' );
-function ad_func( $atts ) {
+function ad_func() {
 	ob_start();
 	get_template_part( 'shortcode', 'ad' );
 	return ob_get_clean();
 }
 
 add_shortcode( 'fs', 'fromscratch_func' );
-function fromscratch_func( $atts ) {
+function fromscratch_func() {
 	ob_start();
 	get_template_part( 'shortcode', 'fs' );
 	return ob_get_clean();
 }
 
 add_shortcode( 'gc', 'goodandcheap_func' );
-function goodandcheap_func( $atts ) {
+function goodandcheap_func() {
 	ob_start();
 	get_template_part( 'shortcode', 'gc' );
 	return ob_get_clean();
+}
+
+add_shortcode( 'cost', 'cost_func' );
+function cost_func( $atts ) {
+	$a = shortcode_atts( array(
+		'total' => '$X',
+		'per' => '$X',
+		'unit' => 'serving',
+	), $atts );
+
+	return "<div class=\"ok-shortcode-cost\"><div>{$a['total']} total</div><div>{$a['per']} / {$a['unit']}</div></div>";
 }

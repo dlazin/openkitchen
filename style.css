@@ -382,6 +382,16 @@ br,
 	width: calc((100% - 40px) / 2);
 }
 
+.ok-shortcode-cost {
+	background: #fff;
+	font: bold 12px / 16px Avenir, Helvetica, sans-serif;
+	margin-top: 40px;
+	padding: 8px 8px 8px 20px;
+	position: absolute;
+	text-align: right;
+	text-transform: uppercase;
+}
+
 .wpurp-container {
 	clear: both;
 }

@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #455a64;
+	color: #546e7a;
 	font-weight: bold;
 	line-height: 1;
 	margin: 40px 0 16px;
@@ -286,16 +286,6 @@ label,
 	color: #c00;
 }
 
-.ok-menu-control .ok-icon {
-	fill: #c00;
-	margin: 4px 0 4px -2px;
-}
-
-.ok-menu-control:hover .ok-icon,
-.ok-menu-control:focus .ok-icon {
-	fill: #fff;
-}
-
 br,
 .home .ok-shortcode-ad,
 .home .ok-shortcode-book,
@@ -305,10 +295,13 @@ br,
 .recipe-tooltip-content,
 .wpurp-recipe-description,
 .wpurp-recipe-image,
-.wpurp-recipe-servings-type,
 .wpurp-recipe-tags,
 .wpurp-responsive-desktop {
 	display: none;
+}
+
+.wpurp-index-container br {
+	display: inline;
 }
 
 .menu,
@@ -367,7 +360,7 @@ br,
 }
 
 .ok-title > a {
-	color: #455a64;
+	color: #546e7a;
 	text-decoration: none;
 }
 
@@ -394,7 +387,7 @@ br,
 }
 
 .wpurp-recipe-title {
-	color: #455a64;
+	color: #546e7a;
 	display: block;
 	font: bold 28px / 28px Bitter, serif;
 	margin-top: 40px;
@@ -825,12 +818,17 @@ br,
 		color: #fff;
 		display: block;
 		font: bold 48px / 32px Times New Roman, serif;
-		margin: 0;
+		margin: 0 0 0 -4px;
 		-ms-user-select: none;
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		user-select: none;
 		width: 32px;
+	}
+
+	.ok-menu-control .ok-icon {
+		fill: #c00;
+		margin: 4px;
 	}
 
 	.ok-menu {

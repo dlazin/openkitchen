@@ -102,10 +102,6 @@ p {
 	margin: 16px 0;
 }
 
-ul {
-	padding-left: 20px;
-}
-
 :link,
 :visited {
 	color: #c00;
@@ -362,6 +358,10 @@ br,
 	vertical-align: top;
 	width: 728px;
 	width: calc(100% - 584px);
+}
+
+.ok-content ul {
+	padding-left: 20px;
 }
 
 .ok-title > a {

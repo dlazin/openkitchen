@@ -376,14 +376,14 @@ br,
 
 .alignleft {
 	float: left;
-	margin: 16px 40px 16px 0;
+	margin: 8px 40px 16px 0;
 	max-width: 240px;
 	width: calc((100% - 40px) / 2);
 }
 
 .alignright {
 	float: right;
-	margin: 16px 0 16px 40px;
+	margin: 8px 0 16px 40px;
 	max-width: 240px;
 	width: calc((100% - 40px) / 2);
 }
@@ -438,8 +438,9 @@ br,
 	padding: 4px 20px 4px 50px;
 }
 
-.wpurp-recipe-ingredient-container {
+ul.wpurp-recipe-ingredient-container {
 	list-style-type: none;
+	padding: 0;
 }
 
 .wpurp-recipe-tag-terms {

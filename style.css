@@ -628,6 +628,11 @@ ul.wpurp-recipe-ingredient-container {
 	margin-right: 40px;
 }
 
+.ok-comments input[type="text"],
+.ok-comments textarea {
+	border-color: #546e7a;
+}
+
 .ok-comments input[type="submit"] {
 	margin-top: 8px;
 }
@@ -965,7 +970,10 @@ ul.wpurp-recipe-ingredient-container {
 	.ok-content-footer,
 	.ok-menu,
 	.ok-nav,
-	.ok-sidebar {
+	.ok-sidebar,
+	.single-recipe .ok-title,
+	.single-recipe .type-recipe > div:not(.wpurp-container),
+	.single-recipe .type-recipe > p {
 		display: none;
 	}
 

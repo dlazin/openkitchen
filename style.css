@@ -102,6 +102,10 @@ p {
 	margin: 16px 0;
 }
 
+ul {
+	padding-left: 20px;
+}
+
 :link,
 :visited {
 	color: #c00;
@@ -184,7 +188,7 @@ input[type="text"],
 textarea {
 	border: 1px solid #c00;
 	border-radius: 2px;
-	font: 14px / 20px Avenir, Helvetica, sans-serif;
+	font: 14px / 20px Avenir, sans-serif;
 	outline: 0;
 	padding: 5px 8px;
 	vertical-align: middle;
@@ -230,7 +234,7 @@ label,
 .comment-meta {
 	display: block;
 	text-transform: uppercase;
-	font: 500 12px / 20px Avenir, Helvetica, sans-serif;
+	font: 500 12px / 20px Avenir, sans-serif;
 }
 
 .comment-author,
@@ -255,6 +259,7 @@ label,
 	text-align: right;
 	top: 0;
 	width: 180px;
+	z-index: 1;
 }
 
 .ok-nav::-webkit-scrollbar {
@@ -313,7 +318,7 @@ br,
 }
 
 .menu-item {
-	font: 500 12px / 12px Avenir, Helvetica, sans-serif;
+	font: 500 12px / 12px Avenir, sans-serif;
 	margin: 16px 0;
 	text-transform: uppercase;
 }
@@ -335,7 +340,7 @@ br,
 }
 
 .ok-search-form .ok-search-field {
-	font: 500 12px / 12px Avenir, Helvetica, sans-serif;
+	font: 500 12px / 12px Avenir, sans-serif;
 }
 
 .ok-search-form .ok-search-submit {
@@ -369,22 +374,33 @@ br,
 	color: #c00;
 }
 
+.alignleft {
+	float: left;
+	margin: 16px 40px 16px 0;
+	max-width: 240px;
+	width: calc((100% - 40px) / 2);
+}
+
+.alignright {
+	float: right;
+	margin: 16px 0 16px 40px;
+	max-width: 240px;
+	width: calc((100% - 40px) / 2);
+}
+
 .ok-shortcode-ad {
 	clear: both;
 	margin: 16px 0;
 }
 
 .ok-shortcode-book {
-	float: left;
-	font: 14px / 20px Avenir, Helvetica, sans-serif;
+	font: 14px / 20px Avenir, sans-serif;
 	margin: 0 40px 40px 0;
-	max-width: 240px;
-	width: calc((100% - 40px) / 2);
 }
 
 .ok-shortcode-cost {
 	background: #fff;
-	font: bold 12px / 16px Avenir, Helvetica, sans-serif;
+	font: bold 12px / 16px Avenir, sans-serif;
 	margin-top: 48px;
 	padding: 8px 8px 8px 20px;
 	position: absolute;
@@ -406,7 +422,7 @@ br,
 .wpurp-title,
 .wpurp-recipe-ingredient-group {
 	display: block;
-	font: 12px / 20px Avenir, Helvetica, sans-serif;
+	font: 12px / 20px Avenir, sans-serif;
 	letter-spacing: 2px;
 	margin: 40px 0 0;
 	text-transform: uppercase;
@@ -465,7 +481,7 @@ br,
 
 .wpurp-recipe-ingredient-notes {
 	color: #757575;
-	font-family: Avenir, Helvetica, sans-serif;
+	font-family: Avenir, sans-serif;
 	margin-left: 8px;
 }
 
@@ -618,7 +634,7 @@ br,
 .ok-sidebar {
 	border-left: 1px solid #c00;
 	float: left;
-	font: 14px / 20px Avenir, Helvetica, sans-serif;
+	font: 14px / 20px Avenir, sans-serif;
 	margin: 0 24px 0 19px;
 	padding-left: 20px;
 	vertical-align: top;
@@ -723,7 +739,7 @@ br,
 .ok-sidebar #ok-sidebar-widgets .gallery-caption {
 	bottom: 0;
 	color: #fff;
-	font: bold 20px / 20px Avenir, Helvetica, sans-serif;
+	font: bold 20px / 20px Avenir, sans-serif;
 	left: 0;
 	margin: 0;
 	padding: 8px;
@@ -862,6 +878,12 @@ br,
 		width: calc(100% - 32px);
 	}
 
+	.alignright {
+		margin-left: 20px;
+		width: calc((100% - 20px) / 2);
+	}
+
+	.alignleft,
 	.ok-shortcode-book {
 		margin-right: 20px;
 		width: calc((100% - 20px) / 2);

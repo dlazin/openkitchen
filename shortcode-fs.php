@@ -1,4 +1,4 @@
-<div class="ok-shortcode-book">
+<div class="ok-shortcode-book alignleft">
     <p>
 		This recipe is from <i>From Scratch</i>.
     </p>

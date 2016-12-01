@@ -15,7 +15,7 @@
 			     alt="Leanne Brown" class="ok-full-bleed" width="300" height="180">
 		</a>
 		<p>
-			Hi! <a href="/about/">I'm Leanne Brown</a>, an avid home cook in Brooklyn by way of Canada.
+			Hi! <a href="/about/">I'm Leanne Brown</a>, a home cook in Brooklyn by way of Canada.
 			I write cookbooks, like the one below!
 		</p>
 		<ul class="ok-sidebar-social">

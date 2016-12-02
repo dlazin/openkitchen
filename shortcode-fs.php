@@ -7,7 +7,7 @@
 		<img src="/wp-content/themes/openkitchen/images/from-scratch-shortcode-1x.jpg"
 		     srcset="/wp-content/themes/openkitchen/images/from-scratch-shortcode-1x.jpg 1x,
 		             /wp-content/themes/openkitchen/images/from-scratch-shortcode-2x.jpg 2x"
-		     alt="From Scratch cover 2nd edition" class="ok-full-bleed" width="240" height="240">
+		     class="ok-full-bleed" alt="From Scratch cover 2nd edition" width="240" height="240">
 	</a>
 	<p>
 		My first book! <i>From Scratch</i> is a vegetarian cookbook intended for people just becoming comfortable in their

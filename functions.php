@@ -135,6 +135,23 @@ function goodandcheap_func() {
 	return ob_get_clean();
 }
 
+add_shortcode( 'cookbooks', 'cookbooks_func' );
+function cookbooks_func() {
+	ob_start();
+	get_template_part( 'shortcode', 'cookbooks' );
+	return ob_get_clean();
+}
+
+add_shortcode( 'json', 'json_func' );
+function json_func( $atts ) {
+	$a = shortcode_atts( array(
+		'template' => 'leanne',
+	), $atts );
+	ob_start();
+	get_template_part( 'json', $a['template'] );
+	return ob_get_clean();
+}
+
 add_shortcode( 'cost', 'cost_func' );
 function cost_func( $atts ) {
 	$a = shortcode_atts( array(

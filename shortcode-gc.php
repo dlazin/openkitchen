@@ -7,7 +7,7 @@
 		<img src="/wp-content/themes/openkitchen/images/good-and-cheap-sidebar-1x.jpg"
 		     srcset="/wp-content/themes/openkitchen/images/good-and-cheap-sidebar-1x.jpg 1x,
 		             /wp-content/themes/openkitchen/images/good-and-cheap-sidebar-2x.jpg 2x"
-		     alt="Good and Cheap cover 2nd edition" class="ok-full-bleed" width="240" height="240">
+		     class="ok-full-bleed" alt="Good and Cheap cover 2nd edition" width="240" height="240">
 	</a>
 	<p>
 		<i>Good and Cheap</i> is a gorgeous cookbook for people with limited income,

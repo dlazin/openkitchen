@@ -114,6 +114,14 @@ a:focus {
 	text-decoration: underline;
 }
 
+:link > img {
+	transition: opacity .5s;
+}
+
+:link > img:hover {
+	opacity: .5;
+}
+
 .ok-comments .reply > a,
 .ok-pagination > a,
 .more-link,
@@ -136,7 +144,7 @@ input[type="submit"] {
 	text-decoration: none;
 	text-overflow: ellipsis;
 	text-transform: uppercase;
-	transition: background .2s, color .2s;
+	transition: background .5s, color .5s;
 	vertical-align: middle;
 	white-space: nowrap;
 }
@@ -411,6 +419,17 @@ br,
 	margin: 0 40px 40px 0;
 }
 
+.ok-shortcode-books {
+	margin: -20px;
+}
+
+.ok-shortcode-books > div {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	width: calc((100% - 80px) / 2);
+}
+
 .ok-shortcode-cost {
 	background: #fff;
 	font: bold 12px / 16px Avenir, sans-serif;
@@ -677,7 +696,7 @@ ul.wpurp-recipe-ingredient-container {
 	display: inline-block;
 	height: 40px;
 	margin: 0 8px;
-	transition: background .2s;
+	transition: background .5s;
 	width: 40px;
 }
 
@@ -693,7 +712,7 @@ ul.wpurp-recipe-ingredient-container {
 .ok-sidebar-social .ok-icon {
 	fill: #fff;
 	margin: 7px;
-	transition: fill .2s;
+	transition: fill .5s;
 }
 
 .ok-icon-facebook {
@@ -733,6 +752,7 @@ ul.wpurp-recipe-ingredient-container {
 }
 
 .ok-shortcode-book .button,
+.ok-shortcode-books .button,
 .ok-sidebar-book .button {
 	margin: 0 8px 8px 0;
 }
@@ -897,6 +917,11 @@ ul.wpurp-recipe-ingredient-container {
 		width: calc(100% - 32px);
 	}
 
+	.ok-video {
+		margin-left: -16px;
+		width: calc(100% + 32px);
+	}
+
 	.alignright {
 		margin-left: 20px;
 		width: calc((100% - 20px) / 2);
@@ -910,6 +935,16 @@ ul.wpurp-recipe-ingredient-container {
 
 	.ok-shortcode-book .ok-full-bleed {
 		width: calc(100% + 16px);
+	}
+
+	.ok-shortcode-books {
+		margin: 0;
+	}
+
+	.ok-shortcode-books > div {
+		display: block;
+		margin: 0 0 40px;
+		width: 100%;
 	}
 
 	.ok-shortcode-cost {

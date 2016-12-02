@@ -12,7 +12,7 @@
 			<img src="/wp-content/themes/openkitchen/images/leanne-1x.jpg"
 			     srcset="/wp-content/themes/openkitchen/images/leanne-1x.jpg 1x,
 			             /wp-content/themes/openkitchen/images/leanne-2x.jpg 2x"
-			     alt="Leanne Brown" class="ok-full-bleed" width="300" height="180">
+			     class="ok-full-bleed" alt="Leanne Brown" width="300" height="180">
 		</a>
 		<p>
 			Hi! <a href="/about/">I'm Leanne Brown</a>, a home cook in Brooklyn by way of Canada.
@@ -50,7 +50,7 @@
 			<img src="/wp-content/themes/openkitchen/images/good-and-cheap-sidebar-1x.jpg"
 			     srcset="/wp-content/themes/openkitchen/images/good-and-cheap-sidebar-1x.jpg 1x,
 			             /wp-content/themes/openkitchen/images/good-and-cheap-sidebar-2x.jpg 2x"
-			     alt="Good and Cheap cover 2nd edition" class="ok-full-bleed" width="300" height="300">
+			     class="ok-full-bleed" alt="Good and Cheap cover 2nd edition" width="300" height="300">
 		</a>
 		<p>
 			<i>Good and Cheap</i> is a gorgeous cookbook for people with limited income,

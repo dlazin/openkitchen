@@ -4,5 +4,6 @@
 		<?php comments_template(); ?>
 	<?php endwhile; endif; ?>
 	<?php get_template_part( 'nav', 'below' ); ?>
+	<?php get_template_part( 'json', 'leanne' ); ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -374,6 +374,19 @@ br,
 	color: #c00;
 }
 
+.ok-video {
+	padding-top: 56.25%;
+	position: relative;
+	width: 100%;
+}
+
+.ok-video > iframe {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
 .alignleft {
 	float: left;
 	margin: 8px 40px 16px 0;

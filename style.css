@@ -367,7 +367,7 @@ br,
 	width: calc(100% - 584px);
 }
 
-.ok-content ul {
+.ok-content article ul {
 	padding-left: 20px;
 }
 

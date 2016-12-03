@@ -440,6 +440,34 @@ br,
 	text-transform: uppercase;
 }
 
+.ok-shortcode-impactlist {
+	display: inline-block;
+	vertical-align: top;
+	width: calc((100% - 40px) / 2);
+}
+
+.ok-shortcode-impactlist + .ok-shortcode-impactlist {
+	margin-left: 40px;
+}
+
+.ok-shortcode-impactmap {
+	height: 500px;
+}
+
+.ok-shortcode-impactmap h3 {
+	font-family: Bitter, serif;
+	margin-top: 16px;
+}
+
+.ok-shortcode-impactlist br,
+.ok-shortcode-impactmap br {
+	display: inline;
+}
+
+.ok-shortcode-impactmap .gm-style .gm-style-iw {
+	font: 14px / 24px Avenir, sans-serif;
+}
+
 .wpurp-container {
 	clear: both;
 }
@@ -949,6 +977,19 @@ ul.wpurp-recipe-ingredient-container {
 
 	.ok-shortcode-cost {
 		margin-left: -16px;
+	}
+
+	.ok-shortcode-impactlist {
+		display: block;
+		width: 100%;
+	}
+
+	.ok-shortcode-impactlist + .ok-shortcode-impactlist {
+		margin: 0;
+	}
+
+	.ok-shortcode-impactmap {
+		max-height: 60vh;
 	}
 
 	.ok-pagination {

@@ -121,6 +121,27 @@ function ad_func() {
 	return ob_get_clean();
 }
 
+add_shortcode( 'cookbooks', 'cookbooks_func' );
+function cookbooks_func() {
+	ob_start();
+	get_template_part( 'shortcode', 'cookbooks' );
+	echo( '<script type="application/ld+json">' );
+	get_template_part( 'json', 'books' );
+	echo( '</script>' );
+	return ob_get_clean();
+}
+
+add_shortcode( 'cost', 'cost_func' );
+function cost_func( $atts ) {
+	$a = shortcode_atts( array(
+		'total' => '$X',
+		'per' => '$X',
+		'unit' => 'serving',
+	), $atts );
+
+	return "<div class=\"ok-shortcode-cost\"><div>{$a['total']} total</div><div>{$a['per']} / {$a['unit']}</div></div>";
+}
+
 add_shortcode( 'fs', 'fromscratch_func' );
 function fromscratch_func() {
 	ob_start();
@@ -135,13 +156,17 @@ function goodandcheap_func() {
 	return ob_get_clean();
 }
 
-add_shortcode( 'cookbooks', 'cookbooks_func' );
-function cookbooks_func() {
+add_shortcode( 'impactlist', 'impactlist_func' );
+function impactlist_func() {
 	ob_start();
-	get_template_part( 'shortcode', 'cookbooks' );
-	echo( '<script type="application/ld+json">' );
-	get_template_part( 'json', 'books' );
-	echo( '</script>' );
+	get_template_part( 'shortcode', 'impactlist' );
+	return ob_get_clean();
+}
+
+add_shortcode( 'impactmap', 'impactmap_func' );
+function impactmap_func() {
+	ob_start();
+	get_template_part( 'shortcode', 'impactmap' );
 	return ob_get_clean();
 }
 
@@ -155,15 +180,4 @@ function json_func( $atts ) {
 	get_template_part( 'json', $a['template'] );
 	echo( '</script>' );
 	return ob_get_clean();
-}
-
-add_shortcode( 'cost', 'cost_func' );
-function cost_func( $atts ) {
-	$a = shortcode_atts( array(
-		'total' => '$X',
-		'per' => '$X',
-		'unit' => 'serving',
-	), $atts );
-
-	return "<div class=\"ok-shortcode-cost\"><div>{$a['total']} total</div><div>{$a['per']} / {$a['unit']}</div></div>";
 }

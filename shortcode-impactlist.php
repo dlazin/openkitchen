@@ -1,6 +1,6 @@
 <div class="ok-shortcode-impactlist">
 <h1>United States</h1>
-<h2>Alabama</h2><h3>Apline</h3>Alabama Childhood Food<br>
+<h2>Alabama</h2><h3>Alpine</h3>Alabama Childhood Food<br>
 <h3>Dothan</h3>Catholic Social Services of Dothan<br>
 <h3>Mobile</h3>Catholic Social Services of Mobile<br>
 Penelope House<br>

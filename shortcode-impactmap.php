@@ -1,6 +1,4 @@
 <div class="ok-shortcode-impactmap ok-full-bleed"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_WGliR-EbiHZU5VbWzlu_EmsbEsNpNjY&callback=initMap"
-				async defer></script>
 <script>
 var infowindow = null;
 
@@ -898,3 +896,5 @@ var cities = [
 ['Sheridan, WY',44.7971939,-106.9561791,'Child Advocacy Services of the Big Horn<br>'],
 ];
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_WGliR-EbiHZU5VbWzlu_EmsbEsNpNjY&callback=initMap"
+				async defer></script>

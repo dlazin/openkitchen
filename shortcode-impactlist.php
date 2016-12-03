@@ -1,5 +1,13 @@
 <div class="ok-shortcode-impactlist">
-<h1>United States</h1><h2>Alaska</h2><h3>Anchorage</h3>Alaska Food Coalition<br>
+<h1>United States</h1>
+<h2>Alabama</h2><h3>Apline</h3>Alabama Childhood Food<br>
+<h3>Dothan</h3>Catholic Social Services of Dothan<br>
+<h3>Mobile</h3>Catholic Social Services of Mobile<br>
+Penelope House<br>
+<h3>Montgomery</h3>Alabama Partnership for Children<br>
+Montgomery Area Food Bank<br>
+<h3>Theodore</h3>Bay Area Food Bank<br>
+<h2>Alaska</h2><h3>Anchorage</h3>Alaska Food Coalition<br>
 Food Bank of Alaska<br>
 Partners for Progress<br>
 <h3>Kotzebue</h3>Maniilaq Association WIC Clinic<br>
@@ -1344,11 +1352,4 @@ Edmonton's Food Bank<br>
 <h3>Toronto</h3>Knox Youth Dinner and Food Bank<br>
 <h3>Wasaga Beach</h3>Georgian Good Food Box<br>
 <h2>Yukon</h2><h3>Whitehorse</h3>Healthy Moms, Healthy Babies, Victoria Faulkner Women's Centre<br>
-<h2>Alabama</h2><h3>Apline</h3>Alabama Childhood Food<br>
-<h3>Dothan</h3>Catholic Social Services of Dothan<br>
-<h3>Mobile</h3>Catholic Social Services of Mobile<br>
-Penelope House<br>
-<h3>Montgomery</h3>Alabama Partnership for Children<br>
-Montgomery Area Food Bank<br>
-<h3>Theodore</h3>Bay Area Food Bank<br>
 </div>

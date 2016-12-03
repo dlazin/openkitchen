@@ -395,6 +395,11 @@ br,
 	width: 100%;
 }
 
+.aligncenter,
+.alignnone {
+	margin-bottom: 16px;
+}
+
 .alignleft {
 	float: left;
 	margin: 8px 40px 16px 0;
@@ -1028,6 +1033,7 @@ ul.wpurp-recipe-ingredient-container {
 	}
 
 	.aligncenter,
+	.alignnone,
 	.ok-full-bleed,
 	.ok-sidebar .ok-full-bleed {
 		margin-left: -16px;

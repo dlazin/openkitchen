@@ -139,6 +139,9 @@ add_shortcode( 'cookbooks', 'cookbooks_func' );
 function cookbooks_func() {
 	ob_start();
 	get_template_part( 'shortcode', 'cookbooks' );
+	echo( '<script type="application/ld+json">' );
+	get_template_part( 'json', 'books' );
+	echo( '</script>' );
 	return ob_get_clean();
 }
 
@@ -148,7 +151,9 @@ function json_func( $atts ) {
 		'template' => 'leanne',
 	), $atts );
 	ob_start();
+	echo( '<script type="application/ld+json">' );
 	get_template_part( 'json', $a['template'] );
+	echo( '</script>' );
 	return ob_get_clean();
 }
 

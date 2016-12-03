@@ -1,4 +1,3 @@
-<script type="application/ld+json">
 {
 	"@context": "http://schema.org",
 	"@type": "Person",
@@ -22,4 +21,3 @@
 		"https://www.linkedin.com/in/leanneebrown"
 		]
 }
-</script>

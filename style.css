@@ -362,9 +362,8 @@ br,
 .ok-content {
 	float: left;
 	margin-left: 220px;
-	max-width: 1024px;
+	max-width: 728px;
 	vertical-align: top;
-	width: 728px;
 	width: calc(100% - 584px);
 }
 

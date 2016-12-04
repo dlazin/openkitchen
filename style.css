@@ -492,7 +492,8 @@ br,
 }
 
 .wpurp-title,
-.wpurp-recipe-ingredient-group {
+.wpurp-recipe-ingredient-group,
+.wpurp-recipe-instruction-group {
 	display: block;
 	font: 12px / 20px Avenir, sans-serif;
 	letter-spacing: 2px;

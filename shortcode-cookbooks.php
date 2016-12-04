@@ -44,7 +44,7 @@
 		you might expect because this book is printed on demand (1 copy at a time) rather than in bulk.</p>
 
 		<div>
-			<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch primary PDF');" class="button">Free PDF</a><a href="http://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch buy link');" class="button">Buy a print copy ($26.96)</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch tip link');" class="button">Leave a tip?</a><a href="http://www.leannebrown.com/s/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch alternate PDF');">Alternate PDF link</a>
+			<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch primary PDF');" class="button">Free PDF</a><a href="http://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch buy link');" class="button">Buy a print copy ($26.96)</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch tip link');" class="button">Leave a tip?</a><a href="https://leanne-brown.squarespace.com/s/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch alternate PDF');">Alternate PDF link</a>
 		</div>
 	</div><div>
 		<a href="https://www.amazon.com/Edmonton-Cooks-Signature-Recipes-Citys/dp/1927958520/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=leanbrow02-20&linkId=7ba576aca2b800d577041811d88734ba"

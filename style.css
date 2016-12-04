@@ -43,20 +43,22 @@ h5,
 h6 {
 	color: #546e7a;
 	font-weight: bold;
-	line-height: 1;
 	margin: 40px 0 16px;
 }
 
 h1 {
 	font-size: 36px;
+	line-height: 40px;
 }
 
 h2 {
 	font-size: 28px;
+	line-height: 30px;
 }
 
 h3 {
 	font-size: 20px;
+	line-height: 24px;
 }
 
 article,
@@ -296,8 +298,12 @@ label,
 }
 
 br,
+.archive .ok-shortcode-ad,
+.archive .ok-shortcode-book,
 .home .ok-shortcode-ad,
 .home .ok-shortcode-book,
+.search .ok-shortcode-ad,
+.search .ok-shortcode-book,
 .ok-menu-control,
 .ok-comments-list .says,
 .ok-newsletter-mobile,
@@ -367,6 +373,7 @@ br,
 	width: calc(100% - 584px);
 }
 
+.ok-content article ol,
 .ok-content article ul {
 	padding-left: 20px;
 }
@@ -377,7 +384,8 @@ br,
 }
 
 .ok-title > a:hover,
-.ok-title > a:focus {
+.ok-title > a:focus,
+.ok-title-placeholder {
 	color: #c00;
 }
 
@@ -479,7 +487,7 @@ br,
 .wpurp-recipe-title {
 	color: #546e7a;
 	display: block;
-	font: bold 28px / 28px Bitter, serif;
+	font: bold 28px / 30px Bitter, serif;
 	margin-top: 40px;
 }
 
@@ -502,7 +510,7 @@ br,
 	padding: 4px 20px 4px 50px;
 }
 
-ul.wpurp-recipe-ingredient-container {
+.ok-content .wpurp-recipe-ingredient-container {
 	list-style-type: none;
 	padding: 0;
 }

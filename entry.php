@@ -2,5 +2,6 @@
 	<?php if ( is_singular() ) { echo '<h1 class="ok-title">'; } else { echo '<h2 class="ok-title">'; } ?>
 		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
 	<?php if ( is_singular() ) { echo '</h1>'; } else { echo '</h2>'; } ?>
-	<?php if ( is_archive() || is_search() ) { the_excerpt(); } else { the_content( $more_link_text = 'Keep reading' ); } ?>
+	<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'large' ); } ?>
+	<?php the_content( $more_link_text = 'Keep reading' ); ?>
 </article>

@@ -6,7 +6,7 @@
 			     srcset="/wp-content/themes/openkitchen/images/good-and-cheap-1x.jpg 1x,
 			             /wp-content/themes/openkitchen/images/good-and-cheap-2x.jpg 2x"
 			     class="ok-full-bleed" alt="Good and Cheap cover 2nd edition">
-	     </a>
+		</a>
 
 		<p><i>Good and Cheap</i> is a gorgeous cookbook for people with limited income,
 		particularly on a $4/day food stamps budget. This is the improved 2nd edition.</p>
@@ -37,7 +37,7 @@
 			     srcset="/wp-content/themes/openkitchen/images/from-scratch-1x.jpg 1x,
 			             /wp-content/themes/openkitchen/images/from-scratch-2x.jpg 2x"
 			     class="ok-full-bleed" alt="From Scratch cover">
-	     </a>
+		</a>
 
 		<p>My first cookbook! <i>From Scratch</i> is a vegetarian cookbook intended for people just
 		becoming comfortable in their own kitchens. The price for a print copy is a little higher than

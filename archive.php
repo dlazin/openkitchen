@@ -1,10 +1,16 @@
 <?php get_header(); ?>
 	<h1 class="ok-title">
 		<?php 
-		if ( is_day() ) { printf( __( 'Daily Archives: %s', 'openkitchen' ), get_the_time( get_option( 'date_format' ) ) ); }
-		elseif ( is_month() ) { printf( __( 'Monthly Archives: %s', 'openkitchen' ), get_the_time( 'F Y' ) ); }
-		elseif ( is_year() ) { printf( __( 'Yearly Archives: %s', 'openkitchen' ), get_the_time( 'Y' ) ); }
-		else { _e( 'Archives', 'openkitchen' ); }
+		if ( is_day() ) {
+			printf( __( 'Archives for <span class="ok-title-placeholder">%s</span>', 'openkitchen' ),
+				get_the_time( get_option( 'date_format' ) ) );
+		} elseif ( is_month() ) {
+			printf( __( 'Archives for <span class="ok-title-placeholder">%s</span>', 'openkitchen' ),
+				get_the_time( 'F Y' ) );
+		} elseif ( is_year() ) {
+			printf( __( 'Archives for <span class="ok-title-placeholder">%s</span>', 'openkitchen' ),
+				get_the_time( 'Y' ) );
+		} else { _e( 'Archives', 'openkitchen' ); }
 		?>
 	</h1>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

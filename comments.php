@@ -1,6 +1,5 @@
 <?php if ( 'comments.php' == basename( $_SERVER['SCRIPT_FILENAME'] ) ) return; ?>
 <div class="ok-comments-ad ok-full-bleed">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- Bottom responsive -->
 	<ins class="adsbygoogle"
 	     style="display:block"

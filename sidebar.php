@@ -65,7 +65,6 @@
 		</div>
 	</div>
 	<div class="ok-sidebar-ad ok-full-bleed">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Sidebar responsive #1 -->
 		<ins class="adsbygoogle"
 		     style="display:block"
@@ -93,7 +92,6 @@
 	</ul>
 	<?php endif; ?>
 	<div class="ok-sidebar-ad ok-full-bleed">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Sidebar responsive #2 -->
 		<ins class="adsbygoogle"
 		     style="display:block"

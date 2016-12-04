@@ -1,5 +1,4 @@
 <div class="ok-shortcode-ad ok-full-bleed">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- Middle responsive -->
 	<ins class="adsbygoogle"
 	     style="display:block"

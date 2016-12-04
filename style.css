@@ -1090,6 +1090,10 @@ br,
 		width: calc(100% - 32px);
 	}
 
+	.ok-sidebar-ad {
+		display: none;
+	}
+
 	.ok-site-name {
 		margin: 0;
 		right: 14px;
@@ -1156,7 +1160,6 @@ br,
 	.ok-nav,
 	.ok-shortcode-ad,
 	.ok-sidebar,
-	.ok-sidebar-ad,
 	.single-recipe .ok-title,
 	.single-recipe .type-recipe > div:not(.wpurp-container),
 	.single-recipe .type-recipe > p {

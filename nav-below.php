@@ -4,3 +4,4 @@
 	<?php previous_posts_link( 'Newer Posts' ) ?>
 </nav>
 <?php } ?>
+<div class="ok-comments-ad ok-full-bleed"></div>

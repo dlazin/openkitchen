@@ -60,16 +60,12 @@
 			and has been downloaded more than 1,000,000 times.
 			<a href="/cookbooks/">I have more cookbooks, too!</a>
 		</p>
-		<p>
+		<div>
 			<a href="http://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon.com</a><a href="http://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar tip link');" class="button" target="_blank">Leave a tip?</a><a href="http://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">Bulk orders for $5.19/copy!</a>
-		</p>
+		</div>
 	</div>
-	<div class="ok-full-bleed">
-		<div style="background: #ccc; width: 300px; height: 250px"></div>
-	</div>
-	<div class="ok-full-bleed">
-		<div style="background: #ccc; width: 300px; height: 250px"></div>
-	</div>
+	<div class="ok-sidebar-ad ok-full-bleed"></div>
+	<div class="ok-sidebar-ad ok-full-bleed"></div>
 	<div class="ok-newsletter-desktop">
 		<h3>Sign up for my newsletter!</h3>
 		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"

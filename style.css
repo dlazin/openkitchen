@@ -423,7 +423,7 @@ br,
 
 .ok-shortcode-ad {
 	clear: both;
-	margin: 16px 0;
+	margin: 40px 0;
 }
 
 .ok-shortcode-book {
@@ -798,6 +798,7 @@ br,
 	margin: 0 8px 8px 0;
 }
 
+.ok-comments-ad,
 .ok-content-ad {
 	margin-top: 40px;
 }
@@ -861,13 +862,14 @@ br,
 	width: 100%;
 }
 
-@media screen and (max-width: 1066px) {
+@media screen and (max-width: 1070px) {
 	.ok-wrapper,
 	.ok-newsletter-mobile {
 		display: block;
 	}
 
 	.ok-content {
+		max-width: 100%;
 		padding-right: 40px;
 		width: calc(100% - 220px);
 	}
@@ -912,7 +914,7 @@ br,
 	}
 }
 
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 745px) {
 	.ok-nav {
 		bottom: auto;
 		overflow: visible;

@@ -1,4 +1,5 @@
 <?php if ( 'comments.php' == basename( $_SERVER['SCRIPT_FILENAME'] ) ) return; ?>
+<div class="ok-comments-ad ok-full-bleed"></div>
 <section class="ok-comments">
 	<?php
 	if ( have_comments() ) : 

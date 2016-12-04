@@ -31,6 +31,4 @@
 				</div>
 			</nav>
 			<section class="ok-content">
-				<div class="ok-content-ad ok-full-bleed">
-					<div style="background: #ccc; max-width: 100%; width: 728px; height: 90px"></div>
-				</div>
+				<div class="ok-content-ad ok-full-bleed"></div>

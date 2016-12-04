@@ -31,4 +31,15 @@
 				</div>
 			</nav>
 			<section class="ok-content">
-				<div class="ok-content-ad ok-full-bleed"></div>
+				<div class="ok-content-ad ok-full-bleed">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Top responsive -->
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-5824609370021331"
+					     data-ad-slot="6626138604"
+					     data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>

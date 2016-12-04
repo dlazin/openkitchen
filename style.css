@@ -83,11 +83,14 @@ video {
 }
 
 embed,
-iframe,
 img,
 object,
 video {
 	height: auto;
+	max-width: 100%;
+}
+
+iframe {
 	max-width: 100%;
 }
 
@@ -799,6 +802,18 @@ br,
 }
 
 .ok-comments-ad,
+.ok-content-ad,
+.ok-shortcode-ad {
+	height: 90px;
+	width: 728px;
+}
+
+.ok-sidebar-ad {
+	height: 600px;
+	width: 300px;
+}
+
+.ok-comments-ad,
 .ok-content-ad {
 	margin-top: 40px;
 }
@@ -862,6 +877,15 @@ br,
 	width: 100%;
 }
 
+@media screen and (max-width: 1330px) {
+	.ok-comments-ad,
+	.ok-content-ad,
+	.ok-shortcode-ad {
+		height: 60px;
+		width: 468px;
+	}
+}
+
 @media screen and (max-width: 1070px) {
 	.ok-wrapper,
 	.ok-newsletter-mobile {
@@ -872,6 +896,13 @@ br,
 		max-width: 100%;
 		padding-right: 40px;
 		width: calc(100% - 220px);
+	}
+
+	.ok-comments-ad,
+	.ok-content-ad,
+	.ok-shortcode-ad {
+		height: 90px;
+		width: 728px;
 	}
 
 	.wpurp-recipe-instruction .wpurp-rows {
@@ -907,6 +938,10 @@ br,
 		width: calc((100% - 80px) / 2);
 	}
 
+	.ok-sidebar > .ok-sidebar-ad {
+		min-width: 300px;
+	}
+
 	.ok-content-footer,
 	.ok-newsletter-desktop,
 	.ok-widget-list {
@@ -914,7 +949,30 @@ br,
 	}
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 1010px) {
+	.ok-comments-ad,
+	.ok-content-ad,
+	.ok-shortcode-ad {
+		height: 60px;
+		width: 468px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.ok-sidebar > .ok-sidebar-ad {
+		height: 250px;
+		min-width: 250px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.ok-sidebar > .ok-sidebar-ad {
+		height: 200px;
+		min-width: 200px;
+	}
+}
+
+@media screen and (max-width: 700px) {
 	.ok-nav {
 		bottom: auto;
 		overflow: visible;
@@ -958,6 +1016,16 @@ br,
 		margin: 24px 16px 0;
 		padding: 0;
 		width: calc(100% - 32px);
+	}
+
+	.ok-content-ad {
+		height: 100px;
+		margin-top: -6px;
+		margin-bottom: -16px;
+	}
+
+	.ok-shortcode-ad {
+		height: 250px;
 	}
 
 	.ok-video {
@@ -1035,6 +1103,11 @@ br,
 		padding: 40px 16px 16px;
 	}
 
+	.ok-comments-ad {
+		height: 250px;
+		margin-bottom: 40px;
+	}
+
 	.comment-form-author,
 	.comment-form-email,
 	.comment-form-url {
@@ -1077,6 +1150,7 @@ br,
 	.ok-content-footer,
 	.ok-menu,
 	.ok-nav,
+	.ok-shortcode-ad,
 	.ok-sidebar,
 	.single-recipe .ok-title,
 	.single-recipe .type-recipe > div:not(.wpurp-container),

@@ -987,18 +987,16 @@ br,
 	.ok-menu-control {
 		color: #fff;
 		display: block;
-		font: bold 48px / 32px Times New Roman, serif;
-		margin: 0 0 0 -4px;
+		height: 24px;
 		-ms-user-select: none;
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		user-select: none;
-		width: 32px;
+		width: 24px;
 	}
 
-	.ok-menu-control .ok-icon {
+	.ok-menu-control > .ok-icon {
 		fill: #c00;
-		margin: 4px;
 	}
 
 	.ok-menu {
@@ -1006,7 +1004,6 @@ br,
 		margin-top: 24px;
 	}
 
-	.ok-menu-control,
 	.ok-menu-visible .ok-menu {
 		display: block;
 	}
@@ -1024,7 +1021,7 @@ br,
 
 	.ok-content-ad {
 		height: 100px;
-		margin-top: 40px;
+		margin-top: 32px;
 		margin-bottom: -16px;
 	}
 
@@ -1095,14 +1092,15 @@ br,
 	}
 
 	.ok-site-name {
-		margin: 0;
 		right: 14px;
 		position: absolute;
 		top: 14px;
 		white-space: nowrap;
 	}
 
+	.ok-site-name,
 	.ok-site-name > h1 {
+		line-height: 24px;
 		margin: 0;
 	}
 

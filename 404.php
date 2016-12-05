@@ -7,5 +7,6 @@
 		       onblur="if (this.value == '') {this.value = 'SEARCH';}">
 		<input type="submit" class="ok-search-submit" value="Search">
 	</form>
+	<script>ga('send', 'event', '404', '<?php echo $_SERVER["REQUEST_URI"] ?>');</script>'
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

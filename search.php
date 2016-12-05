@@ -12,6 +12,7 @@
 			<input type="text" class="ok-search-field" name="s" value="<?php echo get_search_query() ?>">
 			<input type="submit" class="ok-search-submit" value="Search">
 		</form>
+		<script>ga('send', 'event', 'Unfulfilled Search', '<?php echo get_search_query() ?>');</script>'
 	<?php endif; ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

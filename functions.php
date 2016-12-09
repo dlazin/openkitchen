@@ -55,11 +55,17 @@ function remove_unnecessary( $scripts ) {
 	add_filter( 'emoji_svg_url', '__return_false' );
 }
 
-add_filter('style_loader_src', '_remove_script_version', 15, 1);
-add_filter('script_loader_src', '_remove_script_version', 15, 1);
+add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
+add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
 function _remove_script_version($src) {
-	$parts = explode('?ver', $src);
+	$parts = explode( '?ver', $src );
 	return $parts[0];
+}
+
+add_filter( 'post_class','remove_hentry' );
+function remove_hentry( $classes ) {
+	$classes = array_diff( $classes, array( 'hentry' ) );
+	return $classes;
 }
 
 add_filter( 'the_title', 'openkitchen_title' );

@@ -123,7 +123,7 @@ function openkitchen_comments_number( $count ) {
 add_shortcode( 'ad', 'ad_func' );
 function ad_func() {
 	ob_start();
-	get_template_part( 'shortcode', 'ad' );
+	get_template_part( 'ad', 'middle' );
 	return ob_get_clean();
 }
 

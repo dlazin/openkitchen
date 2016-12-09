@@ -1,15 +1,5 @@
 <?php if ( 'comments.php' == basename( $_SERVER['SCRIPT_FILENAME'] ) ) return; ?>
-<div class="ok-comments-ad ok-full-bleed">
-	<!-- Bottom responsive -->
-	<ins class="adsbygoogle"
-	     style="display:block"
-	     data-ad-client="ca-pub-5824609370021331"
-	     data-ad-slot="8382073407"
-	     data-ad-format="auto"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
+<?php get_template_part( 'ad', 'bottom' ); ?>
 <section class="ok-comments">
 	<?php
 	if ( have_comments() ) : 

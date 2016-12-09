@@ -6,12 +6,6 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,400italic,700">
 		<style><?php include 'style.css' ?></style>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-		  google_ad_client: "ca-pub-5824609370021331",
-		  enable_page_level_ads: true
-		});
-		</script>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -38,14 +32,4 @@
 				</div>
 			</nav>
 			<section class="ok-content">
-				<div class="ok-content-ad ok-full-bleed">
-					<!-- Top responsive -->
-					<ins class="adsbygoogle"
-					     style="display:block"
-					     data-ad-client="ca-pub-5824609370021331"
-					     data-ad-slot="6626138604"
-					     data-ad-format="auto"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
+				<?php get_template_part( 'ad', 'top' ); ?>

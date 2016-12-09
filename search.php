@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 	<?php if ( have_posts() ) : ?>
 		<h1 class="ok-title"><?php printf( __( 'Search results for <span class="ok-title-placeholder">%s</span>', 'openkitchen' ), get_search_query() ); ?></h1>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'entry' ); ?>
-		<?php endwhile; ?>
+		<?php get_template_part( 'loop' ); ?>
 		<?php get_template_part( 'nav', 'below' ); ?>
 	<?php else : ?>
 		<h1 class="ok-title"><?php _e( 'Nothing Found', 'openkitchen' ); ?></h1>

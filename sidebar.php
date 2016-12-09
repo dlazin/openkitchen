@@ -64,17 +64,7 @@
 			<a href="http://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon.com</a><a href="http://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar tip link');" class="button" target="_blank">Leave a tip?</a><a href="http://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">Bulk orders for $5.19/copy!</a>
 		</div>
 	</div>
-	<div class="ok-sidebar-ad ok-full-bleed">
-		<!-- Sidebar responsive #1 -->
-		<ins class="adsbygoogle"
-		     style="display:block"
-		     data-ad-client="ca-pub-5824609370021331"
-		     data-ad-slot="3568693406"
-		     data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
+	<?php get_template_part( 'ad', 'side1' ); ?>
 	<div class="ok-newsletter-desktop">
 		<h3>Sign up for my newsletter!</h3>
 		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
@@ -91,15 +81,5 @@
 		<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
 	</ul>
 	<?php endif; ?>
-	<div class="ok-sidebar-ad ok-full-bleed">
-		<!-- Sidebar responsive #2 -->
-		<ins class="adsbygoogle"
-		     style="display:block"
-		     data-ad-client="ca-pub-5824609370021331"
-		     data-ad-slot="6522159803"
-		     data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
+	<?php get_template_part( 'ad', 'side2' ); ?>
 </div>

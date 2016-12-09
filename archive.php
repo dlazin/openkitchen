@@ -13,9 +13,7 @@
 		} else { _e( 'Archives', 'openkitchen' ); }
 		?>
 	</h1>
-	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		<?php get_template_part( 'entry' ); ?>
-	<?php endwhile; endif; ?>
+	<?php get_template_part( 'loop' ); ?>
 	<?php get_template_part( 'nav', 'below' ); ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

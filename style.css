@@ -167,11 +167,6 @@ input[type="submit"]:focus {
 	text-decoration: none;
 }
 
-.ok-pagination > a + a {
-	float: right;
-	margin-right: 20px;
-}
-
 .ok-comments .reply > a,
 .more-link {
 	background: #fff;
@@ -268,7 +263,7 @@ label,
 	text-align: right;
 	top: 0;
 	width: 180px;
-	z-index: 1;
+	z-index: 2;
 }
 
 .ok-nav::-webkit-scrollbar {
@@ -320,11 +315,15 @@ br,
 }
 
 .menu,
+.ok-content .ok-shortcode-social > ul,
+.ok-content .wpurp-recipe-ingredient-container,
+.ok-content .wpurp-recipe-instruction-container,
 .ok-comments-list,
 .ok-comments .children,
 .ok-sidebar-social,
 .ok-widget-list {
 	list-style: none;
+	padding: 0;
 }
 
 .menu-item {
@@ -428,7 +427,7 @@ br,
 
 .ok-shortcode-book {
 	font: 14px / 20px Avenir, sans-serif;
-	margin: 0 40px 40px 0;
+	margin: -12px 40px 32px 0;
 }
 
 .ok-shortcode-books {
@@ -480,6 +479,22 @@ br,
 	font: 14px / 24px Avenir, sans-serif;
 }
 
+.ok-shortcode-social {
+	background: #eceff1;
+	clear: both;
+	display: none;
+	margin: 16px -40px;
+	padding: 20px 40px;
+}
+
+.ok-shortcode-social > h3 {
+	margin-top: 0;
+}
+
+.ok-shortcode-social > ul {
+	margin: 16px 0 8px -8px;
+}
+
 .wpurp-container {
 	clear: both;
 }
@@ -491,6 +506,7 @@ br,
 	margin-top: 40px;
 }
 
+.ok-footer-social-label,
 .wpurp-title,
 .wpurp-recipe-ingredient-group,
 .wpurp-recipe-instruction-group {
@@ -511,21 +527,12 @@ br,
 	padding: 4px 20px 4px 50px;
 }
 
-.ok-content .wpurp-recipe-ingredient-container {
-	list-style-type: none;
-	padding: 0;
-}
-
 .wpurp-recipe-tag-terms {
 	margin-left: 16px;
 }
 
 .wpurp-table td {
 	padding-right: 16px;
-}
-
-.ok-content .wpurp-recipe-instruction-container {
-	padding: 0;
 }
 
 .wpurp-recipe-instruction .wpurp-rows {
@@ -564,7 +571,6 @@ br,
 }
 
 .wpurp-recipe-instruction {
-	list-style-type: none;
 	margin: 16px 0;
 	min-height: 72px;
 	padding: 0px 0 15px 60px;
@@ -655,6 +661,22 @@ br,
 
 .wpurp-recipe-instruction:nth-of-type(20)::before {
 	content: '20';
+}
+
+.ok-pagination {
+	margin: 40px 0 0;
+}
+
+.ok-pagination > a {
+	width: calc((100% - 20px) / 2);
+}
+
+.ok-pagination > a:only-child {
+	width: 100%;
+}
+
+.ok-pagination > a + a {
+	float: right;
 }
 
 .ok-comments {
@@ -754,6 +776,8 @@ br,
 	width: 24px;
 }
 
+.ok-footer-social .ok-icon,
+.ok-shortcode-social .ok-icon,
 .ok-sidebar-social .ok-icon {
 	fill: #fff;
 	margin: 7px;
@@ -794,6 +818,29 @@ br,
 
 .ok-icon-pinterest:hover .ok-icon {
 	fill: #bd081c;
+}
+
+.ok-icon-email {
+	background: #689f38;
+	border: 1px solid #689f38;
+}
+
+.ok-icon-email .ok-icon {
+	padding: 0 1px 2px;
+}
+
+.ok-icon-email:hover .ok-icon {
+	fill: #689f38;
+}
+
+.ok-icon-text {
+	background: #9c27b0;
+	border: 1px solid #9c27b0;
+	display: none;
+}
+
+.ok-icon-text:hover .ok-icon {
+	fill: #9c27b0;
 }
 
 .ok-shortcode-book .button,
@@ -878,6 +925,29 @@ br,
 	width: 100%;
 }
 
+.ok-footer-social {
+	background: #eceff1;
+	bottom: 0;
+	height: 28px;
+	margin: 0 -40px;
+	padding: 0 8px 0 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.ok-footer-social-label {
+	font-weight: bold;
+	float: left;
+	line-height: 28px;
+	margin: 0 6px 0 0;
+	vertical-align: middle;
+}
+
+.ok-footer-social-list {
+	margin-top: -8px;
+}
+
 @media screen and (max-width: 1330px) {
 	.ok-comments-ad,
 	.ok-content-ad,
@@ -889,7 +959,8 @@ br,
 
 @media screen and (max-width: 1070px) {
 	.ok-wrapper,
-	.ok-newsletter-mobile {
+	.ok-newsletter-mobile,
+	.ok-shortcode-social {
 		display: block;
 	}
 
@@ -916,8 +987,8 @@ br,
 		width: 100%;
 	}
 
-	.ok-pagination > a + a {
-		margin: 0;
+	.ok-pagination > a {
+		width: calc((100% - 40px) / 2);
 	}
 
 	.ok-comments {
@@ -1038,6 +1109,7 @@ br,
 
 	.alignleft,
 	.ok-shortcode-book {
+		margin-bottom: 16px;
 		margin-right: 20px;
 		width: calc((100% - 20px) / 2);
 	}
@@ -1073,8 +1145,9 @@ br,
 		max-height: 75vh;
 	}
 
-	.ok-pagination {
-		margin-bottom: 40px;
+	.ok-shortcode-social {
+		margin: 16px -16px;
+		padding: 20px 16px;		
 	}
 
 	.ok-sidebar {
@@ -1118,6 +1191,21 @@ br,
 		width: 100%;
 	}
 
+	.ok-footer-social {
+		border-bottom: 4px solid #fff;
+		height: 34px;
+		margin: 0 -16px;
+		padding-left: 16px;
+	}
+
+	.ok-footer-social-list {
+		margin-top: -6px;
+	}
+
+	.ok-icon-text {
+		display: inline-block;
+	}
+
 	.aligncenter,
 	.alignnone,
 	.ok-full-bleed,
@@ -1152,6 +1240,7 @@ br,
 	.ok-comments,
 	.ok-content-ad,
 	.ok-content-footer,
+	.ok-footer-social,
 	.ok-menu,
 	.ok-nav,
 	.ok-shortcode-ad,

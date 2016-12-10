@@ -187,3 +187,10 @@ function json_func( $atts ) {
 	echo( '</script>' );
 	return ob_get_clean();
 }
+
+add_shortcode( 'social', 'social_func' );
+function social_func() {
+	ob_start();
+	get_template_part( 'shortcode', 'social' );
+	return ob_get_clean();
+}

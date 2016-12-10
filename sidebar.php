@@ -5,6 +5,37 @@
 		</ul>
 	</div>
 	<?php endif; ?>
+	<div class="ok-footer-social">
+		<span class="ok-footer-social-label">Share!</span>
+		<ul class="ok-footer-social-list">
+			<li class="ok-icon-wrapper ok-icon-facebook">
+				<a href="http://facebook.com/share.php?u=<?php echo( get_permalink() ); ?>"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Facebook share link');">
+					<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-twitter">
+				<a href="https://twitter.com/share?text=<?php echo( get_the_title() ); ?>&url=<?php echo( get_permalink() ); ?>&via=leelb"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Twitter share link');">
+					<svg class="ok-icon"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-pinterest">
+				<a href="https://www.pinterest.com/pin/create/button?url=<?php echo( get_permalink() ); ?>&media=<?php echo( the_post_thumbnail_url( 'large' ) ); ?>&description=<?php echo( get_the_title() ); ?>"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Pinterest share link');">
+					<svg class="ok-icon"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-email">
+				<a href="mailto:?subject=<?php echo( get_the_title() ); ?>&body=<?php echo( get_permalink() ); ?>"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Email share link');">
+					<svg class="ok-icon"><use href="#icon-email" xlink:href="#icon-email"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-text">
+				<a href="sms:?body=<?php echo( get_permalink() ); ?>"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Text share link');">
+					<svg class="ok-icon"><use href="#icon-text" xlink:href="#icon-text"></use></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
 </section>
 <div class="ok-sidebar">
 	<div>
@@ -19,18 +50,27 @@
 			I write cookbooks, like the one below!
 		</p>
 		<ul class="ok-sidebar-social">
-			<li class="ok-icon-wrapper ok-icon-facebook"><a href="https://www.facebook.com/eatgoodandcheap">
-				<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
-			</a></li>
-			<li class="ok-icon-wrapper ok-icon-twitter"><a href="https://twitter.com/leelb">
-				<svg class="ok-icon"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
-			</a></li>
-			<li class="ok-icon-wrapper ok-icon-instagram"><a href="https://www.instagram.com/leanneebrown/">
-				<svg class="ok-icon"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
-			</a></li>
-			<li class="ok-icon-wrapper ok-icon-pinterest"><a href="https://www.pinterest.com/leanneebrown/">
-				<svg class="ok-icon"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
-			</a></li>
+			<li class="ok-icon-wrapper ok-icon-facebook">
+				<a href="https://www.facebook.com/eatgoodandcheap"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Facebook sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-twitter">
+				<a href="https://twitter.com/leelb"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Twitter sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-instagram">
+				<a href="https://www.instagram.com/leanneebrown/"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Instagram sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
+				</a>
+			</li><li class="ok-icon-wrapper ok-icon-pinterest">
+				<a href="https://www.pinterest.com/leanneebrown/"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Pinterest sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-pinterest" xlink:href="#icon-pinterest"></use></svg>
+				</a>
+			</li>
 		</ul>
 		<div class="ok-newsletter-mobile">
 			<h3>Sign up for my newsletter!</h3>

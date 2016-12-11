@@ -1044,16 +1044,8 @@ br,
 }
 
 @media screen and (max-width: 900px) {
-	.ok-sidebar > .ok-sidebar-ad {
-		height: 250px;
-		min-width: 250px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.ok-sidebar > .ok-sidebar-ad {
-		height: 200px;
-		min-width: 200px;
+	.ok-sidebar-ad {
+		display: none;
 	}
 }
 
@@ -1168,10 +1160,6 @@ br,
 		margin: -40px 16px 0;
 		padding: 0;
 		width: calc(100% - 32px);
-	}
-
-	.ok-sidebar-ad {
-		display: none;
 	}
 
 	.ok-site-name {

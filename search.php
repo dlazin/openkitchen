@@ -3,6 +3,7 @@
 		<h1 class="ok-title"><?php printf( __( 'Search results for <span class="ok-title-placeholder">%s</span>', 'openkitchen' ), get_search_query() ); ?></h1>
 		<?php get_template_part( 'loop' ); ?>
 		<?php get_template_part( 'nav', 'below' ); ?>
+		<script>ga('send', 'event', 'Fulfilled Search', '<?php echo get_search_query() ?>');</script>'
 	<?php else : ?>
 		<h1 class="ok-title"><?php _e( 'Nothing Found', 'openkitchen' ); ?></h1>
 		<p><?php _e( 'Sorry, nothing matched your search. Please try again.', 'openkitchen' ); ?></p>

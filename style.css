@@ -944,7 +944,6 @@ br,
 	float: left;
 	line-height: 28px;
 	margin: 0 6px 0 0;
-	vertical-align: middle;
 }
 
 .ok-footer-social-list {
@@ -1195,14 +1194,8 @@ br,
 	}
 
 	.ok-footer-social {
-		border-bottom: 4px solid #fff;
-		height: 34px;
 		margin: 0 -16px;
 		padding-left: 16px;
-	}
-
-	.ok-footer-social-list {
-		margin-top: -6px;
 	}
 
 	.ok-icon-text {

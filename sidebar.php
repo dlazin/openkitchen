@@ -29,7 +29,7 @@
 					<svg class="ok-icon"><use href="#icon-email" xlink:href="#icon-email"></use></svg>
 				</a>
 			</li><li class="ok-icon-wrapper ok-icon-text">
-				<a href="sms:?body=<?php echo( get_permalink() ); ?>"
+				<a href="sms:&body=<?php echo( get_the_title() ); ?> <?php echo( get_permalink() ); ?>"
 				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Text share link');">
 					<svg class="ok-icon"><use href="#icon-text" xlink:href="#icon-text"></use></svg>
 				</a>

@@ -16,7 +16,7 @@
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch shortcode link');">PDF is free</a>.
 		Print copies are a pricier than you might expect because this book is printed on demand (1 copy at a time).
 	</p>
-	<div>
+	<div class="ok-book-buttons">
 		<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch shortcode PDF button');" class="button" target="_blank">Free PDF</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch shortcode tip link');" class="button" target="_blank">Leave a tip?</a><a href="http://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch shortcode Lulu link');" class="button" target="_blank">Buy a print copy ($26.96)</a>
 	</div>
 </div>

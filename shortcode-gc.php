@@ -17,7 +17,7 @@
 		and has been downloaded more than 1,000,000 times.
 		<a href="/cookbooks/">I have more cookbooks, too!</a>
 	</p>
-	<div>
+	<div class="ok-book-buttons">
 		<a href="http://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap shortcode Amazon.com link');" class="button" target="_blank">Amazon.com</a><a href="http://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap shortcode Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap shortcode PDF button');" class="button" target="_blank">Free PDF</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap shortcode tip link');" class="button" target="_blank">Leave a tip?</a>
 	</div>
 </div>

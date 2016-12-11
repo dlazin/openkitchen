@@ -933,9 +933,10 @@ br,
 	bottom: 0;
 	height: 28px;
 	margin: 0 -40px;
+	max-width: 787px;
 	padding: 0 8px 0 40px;
 	position: fixed;
-	width: 100%;
+	width: calc(100% - 525px);
 	z-index: 1;
 }
 
@@ -1020,6 +1021,11 @@ br,
 	.ok-newsletter-desktop,
 	.ok-widget-list {
 		display: none;
+	}
+
+	.ok-footer-social {
+		max-width: none;
+		width: 100%;
 	}
 }
 

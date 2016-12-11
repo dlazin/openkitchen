@@ -1,6 +1,6 @@
 <div class="ok-shortcode-social">
 	<h3>Follow me and subscribe!</h3>
-	<ul>
+	<ul class="ok-shortcode-social-list">
 		<li class="ok-icon-wrapper ok-icon-facebook">
 			<a href="https://www.facebook.com/eatgoodandcheap"
 			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Facebook content follow link');">

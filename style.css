@@ -448,7 +448,8 @@ br,
 
 .ok-shortcode-books-alternate {
 	margin: 4px;
-	white-space: pre;
+	vertical-align: middle;
+	white-space: nowrap;
 }
 
 .ok-shortcode-cost {
@@ -967,7 +968,8 @@ br,
 	margin-top: -8px;
 }
 
-.ok-footer-social-list > .ok-icon-wrapper {
+.ok-footer-social-list > .ok-icon-wrapper,
+.ok-shortcode-social-list > .ok-icon-wrapper {
 	margin: 0 8px;	
 }
 

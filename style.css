@@ -1044,6 +1044,7 @@ br,
 }
 
 @media screen and (max-width: 900px) {
+	#wpadminbar,
 	.ok-sidebar-ad {
 		display: none;
 	}
@@ -1093,7 +1094,7 @@ br,
 	}
 
 	.ok-content-ad {
-		height: 100px;
+		height: 50px;
 		margin-top: 32px;
 		margin-bottom: -16px;
 	}

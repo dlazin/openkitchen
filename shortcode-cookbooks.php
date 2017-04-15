@@ -27,7 +27,7 @@
 		For more information on the project, see the <a href="#faq">Frequently Asked Questions</a> below.</p>
 
 		<div class="ok-book-buttons">
-			<a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');" class="button">Free PDF</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap tip link');" class="button">Leave a tip?</a><a href="https://leanne-brown.squarespace.com/s/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap alternate PDF');" class="ok-shortcode-books-alternate">Alternate PDF link</a>
+			<a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');" class="button">Free PDF</a>
 		</div>
 	</div><div>
 		<a href="/from-scratch.pdf"
@@ -43,7 +43,7 @@
 		you might expect because this book is printed on demand (1 copy at a time) rather than in bulk.</p>
 
 		<div class="ok-book-buttons">
-			<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch primary PDF');" class="button">Free PDF</a><a href="http://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch buy link');" class="button">Buy a print copy ($26.96)</a><a href="https://cash.me/$LeanneBrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch tip link');" class="button">Leave a tip?</a><a href="https://leanne-brown.squarespace.com/s/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch alternate PDF');" class="ok-shortcode-books-alternate">Alternate PDF link</a>
+			<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch primary PDF');" class="button">Free PDF</a><a href="http://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch buy link');" class="button">Buy a print copy ($26.96)</a>
 		</div>
 	</div><div>
 		<a href="https://www.amazon.com/Edmonton-Cooks-Signature-Recipes-Citys/dp/1927958520/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=leanbrow02-20&linkId=7ba576aca2b800d577041811d88734ba"

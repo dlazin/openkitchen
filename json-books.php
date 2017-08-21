@@ -23,7 +23,7 @@
 				"https://www.facebook.com/eatgoodandcheap",
 				"https://www.workman.com/products/good-and-cheap",
 				"https://www.amazon.com/Good-Cheap-Eat-Well-Day/dp/0761184996",
-				"http://www.barnesandnoble.com/w/good-and-cheap-leanne-brown/1120198012"
+				"https://www.barnesandnoble.com/w/good-and-cheap-leanne-brown/1120198012"
 				]
 		},
 		{
@@ -52,6 +52,31 @@
 				"https://www.leannebrown.com/good-and-cheap.pdf",
 				"https://www.facebook.com/eatgoodandcheap",
 				"https://www.kickstarter.com/projects/490865454/good-and-cheap"
+				]
+		},
+		{
+			"@context": "http://schema.org",
+			"@type": "Book",
+			"name": "Bueno y Barato",
+			"alternativeHeadline": "Alimentate Bien a $4 al Dia",
+			"author": <?php get_template_part( 'json', 'leanne' ); ?>,
+			"url": "https://www.leannebrown.com/cookbooks/",
+			"image": "https://www.leannebrown.com/wp-content/themes/openkitchen/images/bueno-y-barato-2x.jpg",
+			"isbn": ["9781523501182"],
+			"publisher": "Workman Publishing",
+			"editor": "Liz Davis",
+			"translator": ["Jorge Baldizón", "María Alamo"],
+			"datePublished": "2017",
+			"numberOfPages": 208,
+			"bookFormat": ["Paperback", "EBook"],
+			"inLanguage": "es-419",
+			"about": "Libros de recetas. Cocina de bajo presupuesto.",
+			"description": "Bueno y Barato es un libro de recetas maravilloso para las personas que se puede gastar un promedio aproximado de $4 diarios, particularlmente los en el programa federal estadounidense que se llamaba cupones de alimentos. Un PDF, de acceso gratuito, ha conseguiedo mas que 1.000.000 descargas.",
+			"sameAs" : [
+				"https://cookbooks.leannebrown.com/bueno-y-barato.pdf",
+				"https://www.workman.com/products/bueno-y-barato",
+				"https://www.amazon.com/Bueno-Barato-Alimentate-Bien-Spanish/dp/1523501189",
+				"https://www.barnesandnoble.com/w/bueno-y-barato-leanne-brown/1125896434"
 				]
 		},
 		{

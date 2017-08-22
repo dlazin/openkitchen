@@ -73,7 +73,7 @@
 			"about": "Libros de recetas. Cocina de bajo presupuesto.",
 			"description": "Bueno y Barato es un libro de recetas maravilloso para las personas que se puede gastar un promedio aproximado de $4 diarios, particularlmente los en el programa federal estadounidense que se llamaba cupones de alimentos. Un PDF, de acceso gratuito, ha conseguiedo mas que 1.000.000 descargas.",
 			"sameAs" : [
-				"https://cookbooks.leannebrown.com/bueno-y-barato.pdf",
+				"https://www.leannebrown.com/bueno-y-barato.pdf",
 				"https://www.workman.com/products/bueno-y-barato",
 				"https://www.amazon.com/Bueno-Barato-Alimentate-Bien-Spanish/dp/1523501189",
 				"https://www.barnesandnoble.com/w/bueno-y-barato-leanne-brown/1125896434"

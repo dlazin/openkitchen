@@ -97,13 +97,13 @@
 			particularly on a $4/day food stamps budget.
 			<a href="/good-and-cheap.pdf" target="_blank"
 			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar link');">The PDF is free</a>
-			<a href="https://cookbooks.leannebrown.com/bueno-y-barato.pdf" target="_blank"
+			<a href="/bueno-y-barato.pdf" target="_blank"
 			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato sidebar link');">(ahora en Español!)</a>
 			and has been downloaded over 1,000,000 times.
 			<a href="/cookbooks/">I have more cookbooks!</a>
 		</p>
 		<div class="ok-book-buttons">
-			<a href="https://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="https://cookbooks.leannebrown.com/bueno-y-barato.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato sidebar PDF button');" class="button" target="_blank">PDF (Español)</a><a href="https://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">In bulk: $5.19/copy!</a>
+			<a href="https://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="/bueno-y-barato.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato sidebar PDF button');" class="button" target="_blank">PDF (Español)</a><a href="https://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">In bulk: $5.19/copy!</a>
 		</div>
 	</div>
 	<?php get_template_part( 'ad', 'side1' ); ?>

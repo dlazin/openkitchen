@@ -108,7 +108,7 @@
 	</div>
 	<?php get_template_part( 'ad', 'side1' ); ?>
 	<div class="ok-newsletter-desktop">
-		<h3>Sign up for my newsletter!</h3>
+		<h3>Sign up for my mailing list!</h3>
 		<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
 		      method="post" class="ok-newsletter-form" target="_blank" novalidate>
 			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">

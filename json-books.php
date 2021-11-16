@@ -18,7 +18,7 @@
 			"bookFormat": ["Paperback", "Hardcover", "EBook"],
 			"inLanguage": "en-US",
 			"about": "Cookbooks. Low budget cooking.",
-			"description": "Good and Cheap is a cookbook for people with very tight budgets, particularly those on SNAP/Food Stamp benefits. The PDF is free and has been downloaded more than 1,000,000 times. It became the #1 cookbook ever on Kickstarter and a New York Times best-seller. Generous backers have given over 70,000 printed copies of Good and Cheap to people in need.",
+			"description": "Good and Cheap is a cookbook for people with very tight budgets, particularly those on SNAP/Food Stamp benefits. The PDF is free and has been downloaded more than 15,000,000 times. It became the #1 cookbook ever on Kickstarter and a New York Times best-seller. Generous backers have given over 70,000 printed copies of Good and Cheap to people in need.",
 			"sameAs" : [
 				"https://www.facebook.com/eatgoodandcheap",
 				"https://www.workman.com/products/good-and-cheap",
@@ -47,7 +47,7 @@
 			"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 			"award": "IACP Cookbook Award",
 			"about": "Cookbooks. Low budget cooking.",
-			"description": "Good and Cheap is a cookbook for people with very tight budgets, particularly those on SNAP/Food Stamp benefits. The PDF is free and has been downloaded more than 1,000,000 times. It became the #1 cookbook ever on Kickstarter and a New York Times best-seller. Generous backers have given over 70,000 printed copies of Good and Cheap to people in need.",
+			"description": "Good and Cheap is a cookbook for people with very tight budgets, particularly those on SNAP/Food Stamp benefits. The PDF is free and has been downloaded more than 15,000,000 times. It became the #1 cookbook ever on Kickstarter and a New York Times best-seller. Generous backers have given over 70,000 printed copies of Good and Cheap to people in need.",
 			"sameAs" : [
 				"https://www.leannebrown.com/good-and-cheap.pdf",
 				"https://www.facebook.com/eatgoodandcheap",
@@ -71,7 +71,7 @@
 			"bookFormat": ["Paperback", "EBook"],
 			"inLanguage": "es-419",
 			"about": "Libros de recetas. Cocina de bajo presupuesto.",
-			"description": "Bueno y Barato es un libro de recetas maravilloso para las personas que se puede gastar un promedio aproximado de $4 diarios, particularlmente los en el programa federal estadounidense que se llamaba cupones de alimentos. Un PDF, de acceso gratuito, ha conseguiedo mas que 1.000.000 descargas.",
+			"description": "Bueno y Barato es un libro de recetas maravilloso para las personas que se puede gastar un promedio aproximado de $4 diarios, particularlmente los en el programa federal estadounidense que se llamaba cupones de alimentos. Un PDF, de acceso gratuito, ha conseguiedo mas que 15.000.000 descargas.",
 			"sameAs" : [
 				"https://www.leannebrown.com/bueno-y-barato.pdf",
 				"https://www.workman.com/products/bueno-y-barato",

@@ -12,7 +12,7 @@
 		particularly on a $4/day food stamps budget.
 		<a href="/good-and-cheap.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');">The PDF is free</a>
-		   and has been downloaded more than 1,000,000 times.
+		   and has been downloaded more than 15,000,000 times.
 		   For more information on the project, see the <a href="#faq">Frequently Asked Questions</a> below.</p>
 
 		<div class="ok-book-buttons">
@@ -31,7 +31,7 @@
 		se puede gastar un promedio aproximado de $4 diarios, particularmente las en el programa federal estadounidense que
 		se llamaba cupones de alimentos. <a href="/bueno-y-barato.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato primary PDF');">Un PDF, de acceso gratuito</a>,
-		   ha conseguiedo mas que 1.000.000 descargas.</p>
+		   ha conseguiedo mas que 15.000.000 descargas.</p>
 
 		<div class="ok-book-buttons">
 			<a href="/bueno-y-barato.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato primary PDF');" class="button">PDF gratis</a><a href="https://www.amazon.com/Bueno-Barato-Alimentate-Bien-Spanish/dp/1523501189/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=leanbrow02-20&linkId=1c3ad541aa21a382fc6d888d97a94a05" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato Amazon.com link');" class="button">Amazon</a><a href="https://www.amazon.com.mx/Bueno-Barato-Good-Cheap-Alimentate/dp/1523501189" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato Amazon.com.mx link');" class="button">Amazon.com.mx</a><a href="https://www.barnesandnoble.com/w/bueno-y-barato-leanne-brown/1125896434" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato B&N link');" class="button">B & N</a><a href="https://www.indiebound.org/book/9781523501182?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato IndieBound link');" class="button">IndieBound</a><a href="http://www.powells.com/book/bueno-y-barato-9781523501182?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato Powells link');" class="button">Powell's</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato non-profits link');" class="button">Pedidos a granel por $ 5.19/copia!</a>

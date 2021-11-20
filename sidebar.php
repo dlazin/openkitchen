@@ -47,7 +47,7 @@
 		</a>
 		<p>
 			Hi! <a href="/about/">I'm Leanne Brown</a>, a home cook in Brooklyn by way of Canada.
-			I write cookbooks, like the one below!
+			I write cookbooks, like the ones below!
 		</p>
 		<ul class="ok-sidebar-social">
 			<li class="ok-icon-wrapper ok-icon-facebook">
@@ -82,6 +82,26 @@
 				</span>
 				<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
 			</form>
+		</div>
+	</div>
+	<div class="ok-sidebar-book">
+		<a href="https://amzn.to/3DEfUYo" target="_blank"
+		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar image');">
+			<img src="/wp-content/themes/openkitchen/images/good-enough-sidebar-1x.jpg"
+			     srcset="/wp-content/themes/openkitchen/images/good-enough-sidebar-1x.jpg 1x,
+			             /wp-content/themes/openkitchen/images/good-enough-sidebar-2x.jpg 2x"
+			     class="ok-full-bleed" alt="Good Enough cover" width="300" height="300">
+		</a>
+		<p>
+			<strong>COMING JANUARY 4!</strong>
+			My newest creation, <i>Good Enough</i>, is a self-care cookbook that offers personal and vulnerable storytelling,
+			delicious recipes, and encouraging advice to teach you how to accept yourself, love yourself,
+			and find peace through the act of cooking. Please
+			<a href="https://amzn.to/3DEfUYo" target="_blank"
+			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar pre-order CTA');">pre-order now!</a>
+		</p>
+		<div class="ok-book-buttons">
+			<a href="https://amzn.to/3DEfUYo" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="https://amzn.to/3HBsPwJ" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.indiebound.org/book/9781523509676?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar IndieBound link');" class="button" target="_blank">IndieBound</a>
 		</div>
 	</div>
 	<div class="ok-sidebar-book">

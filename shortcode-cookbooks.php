@@ -1,5 +1,24 @@
 <div class="ok-shortcode-books">
 	<div>
+		<a href="https://amzn.to/3DEfUYo"
+		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough image');">
+			<img src="/wp-content/themes/openkitchen/images/good-enough-1x.jpg"
+			     srcset="/wp-content/themes/openkitchen/images/good-enough-1x.jpg 1x,
+			             /wp-content/themes/openkitchen/images/good-enough-2x.jpg 2x"
+			     class="ok-full-bleed" alt="Good Enough cover">
+		</a>
+
+		<p><strong>COMING JANUARY 4!</strong> My newest creation, <i>Good Enough</i>,
+		is a self-care cookbook that offers personal and vulnerable storytelling,
+		delicious recipes, and encouraging advice to teach you how to accept yourself,
+		love yourself, and find peace through the act of cooking. Please
+		<a href="https://amzn.to/3DEfUYo" target="_blank"
+		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar pre-order CTA');">pre-order now!</a></p>
+
+		<div class="ok-book-buttons">
+			<a href="https://amzn.to/3DEfUYo" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Amazon.com link');" class="button">Amazon</a><a href="https://amzn.to/3HBsPwJ" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Amazon.ca link');" class="button">Amazon.ca</a><a href="https://www.barnesandnoble.com/w/good-enough-leanne-brown/1140124566" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough B&N link');" class="button">B & N</a><a href="https://www.indiebound.org/book/9781523509676?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough IndieBound link');" class="button">IndieBound</a><a href="https://www.powells.com/book/good-enough-a-cookbook-embracing-the-joys-of-imperfection-in-out-of-the-kitchen-9781523509676?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Powells link');" class="button" rel="powells-9781523509676">Powell's</a>
+		</div>
+	</div><div>
 		<a href="/good-and-cheap.pdf"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');">
 			<img src="/wp-content/themes/openkitchen/images/good-and-cheap-1x.jpg"

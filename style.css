@@ -865,9 +865,12 @@ br,
 }
 
 .ok-shortcode-book .button,
-.ok-shortcode-books .button,
-.ok-sidebar-book .button {
+.ok-shortcode-books .button {
 	margin: 4px;
+}
+
+.ok-sidebar-book .button {
+	margin: 4px 3px;
 }
 
 .ok-comments-ad,

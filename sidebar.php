@@ -73,8 +73,8 @@
 			</li>
 		</ul>
 		<div class="ok-newsletter-mobile">
-			<h3>Sign up for my newsletter!</h3>
-			<form action="//leannebrown.us8.list-manage.com/subscribe/post?u=319ebcc8b4ce17f03ae19d7db&amp;id=712abe1a98"
+			<h3>Sign up for my mailing list!</h3>
+			<form action="//leannebrown.us20.list-manage.com/subscribe/post?u=4857bc97f09570bde4724e9f0&amp;id=d11c02c5e9"
 			      method="post" class="ok-newsletter-form" target="_blank" novalidate>
 				<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
 				<span style="position: absolute; left: -5000px;" aria-hidden="true">
@@ -128,7 +128,7 @@
 	</div>
 	<?php get_template_part( 'ad', 'side1' ); ?>
 	<div class="ok-newsletter-desktop">
-		<h3>Sign up for my newsletter!</h3>
+		<h3>Sign up for my mailing list!</h3>
 		<form action="//leannebrown.us20.list-manage.com/subscribe/post?u=4857bc97f09570bde4724e9f0&amp;id=d11c02c5e9"
 		      method="post" class="ok-newsletter-form" target="_blank" novalidate>
 			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">

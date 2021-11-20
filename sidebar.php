@@ -50,20 +50,20 @@
 			I write cookbooks, like the ones below!
 		</p>
 		<ul class="ok-sidebar-social">
-			<li class="ok-icon-wrapper ok-icon-facebook">
-				<a href="https://www.facebook.com/eatgoodandcheap"
-				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Facebook sidebar follow link');">
-					<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
+			<li class="ok-icon-wrapper ok-icon-instagram">
+				<a href="https://www.instagram.com/leanneebrown/"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Instagram sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
 				</a>
 			</li><li class="ok-icon-wrapper ok-icon-twitter">
 				<a href="https://twitter.com/leelb"
 				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Twitter sidebar follow link');">
 					<svg class="ok-icon"><use href="#icon-twitter" xlink:href="#icon-twitter"></use></svg>
 				</a>
-			</li><li class="ok-icon-wrapper ok-icon-instagram">
-				<a href="https://www.instagram.com/leanneebrown/"
-				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Instagram sidebar follow link');">
-					<svg class="ok-icon"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
+			</li><li class="ok-icon-wrapper ok-icon-facebook">
+				<a href="https://www.facebook.com/eatgoodandcheap"
+				   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Facebook sidebar follow link');">
+					<svg class="ok-icon"><use href="#icon-facebook" xlink:href="#icon-facebook"></use></svg>
 				</a>
 			</li><li class="ok-icon-wrapper ok-icon-pinterest">
 				<a href="https://www.pinterest.com/leanneebrown/"

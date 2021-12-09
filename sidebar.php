@@ -93,7 +93,7 @@
 			     class="ok-full-bleed" alt="Good Enough cover" width="300" height="300">
 		</a>
 		<p>
-			<strong>COMING JANUARY 4!</strong>
+			<strong>COMING JANUARY 11!</strong>
 			My newest creation, <i>Good Enough</i>, is a self-care cookbook that offers personal and vulnerable storytelling,
 			delicious recipes, and encouraging advice to teach you how to accept yourself, love yourself,
 			and find peace through the act of cooking. Please
@@ -101,7 +101,7 @@
 			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar pre-order CTA');">pre-order now!</a>
 		</p>
 		<div class="ok-book-buttons">
-			<a href="https://amzn.to/3DEfUYo" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="https://amzn.to/3HBsPwJ" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.indiebound.org/book/9781523509676?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar IndieBound link');" class="button" target="_blank">IndieBound</a>
+			<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="https://www.amazon.ca/dp/1523509678?tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.barnesandnoble.com/w/good-enough-leanne-brown/1140124566" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar B&N link');" class="button" target="_blank">B & N</a><a href="https://www.booksamillion.com/p/9781523509676" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Books-A-Million link');" class="button" target="_blank">Books-a-Million</a><a href="https://bookshop.org/books/good-enough-a-cookbook-embracing-the-joys-of-imperfection-in-and-out-of-the-kitchen/9781523509676" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Bookshop.org link');" class="button" target="_blank">Bookshop.org</a><a href="https://www.indiebound.org/book/9781523509676?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar IndieBound link');" class="button" target="_blank">IndieBound</a><a href="https://www.powells.com/book/good-enough-a-cookbook-embracing-the-joys-of-imperfection-in-out-of-the-kitchen-9781523509676?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar Powells link');" class="button" rel="powells-9781523509676" target="_blank">Powell's</a>
 		</div>
 	</div>
 	<div class="ok-sidebar-book">
@@ -123,7 +123,7 @@
 			<a href="/cookbooks/">I have more cookbooks!</a>
 		</p>
 		<div class="ok-book-buttons">
-			<a href="https://www.amazon.com/gp/product/0761184996/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow02-20&amp;linkId=UNPUME6T3LLPRK3G" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="/bueno-y-barato.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato sidebar PDF button');" class="button" target="_blank">PDF (Español)</a><a href="https://www.amazon.ca/gp/product/0761184996/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=0761184996&amp;linkCode=as2&amp;tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">In bulk: $5.19/copy!</a>
+			<a href="https://www.amazon.com/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.com link');" class="button" target="_blank">Amazon</a><a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar PDF button');" class="button" target="_blank">Free PDF</a><a href="/bueno-y-barato.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato sidebar PDF button');" class="button" target="_blank">PDF (Español)</a><a href="https://www.amazon.ca/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar Amazon.ca link');" class="button" target="_blank">Amazon.ca</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap sidebar non-profits link');" class="button" target="_blank">In bulk: $5.19/copy!</a>
 		</div>
 	</div>
 	<?php get_template_part( 'ad', 'side1' ); ?>

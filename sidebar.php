@@ -85,7 +85,7 @@
 		</div>
 	</div>
 	<div class="ok-sidebar-book">
-		<a href="https://amzn.to/3DEfUYo" target="_blank"
+		<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar image');">
 			<img src="/wp-content/themes/openkitchen/images/good-enough-sidebar-1x.jpg"
 			     srcset="/wp-content/themes/openkitchen/images/good-enough-sidebar-1x.jpg 1x,
@@ -97,7 +97,7 @@
 			My newest creation, <i>Good Enough</i>, is a self-care cookbook that offers personal and vulnerable storytelling,
 			delicious recipes, and encouraging advice to teach you how to accept yourself, love yourself,
 			and find peace through the act of cooking. Please
-			<a href="https://amzn.to/3DEfUYo" target="_blank"
+			<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20" target="_blank"
 			   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar pre-order CTA');">pre-order now!</a>
 		</p>
 		<div class="ok-book-buttons">

@@ -1,6 +1,6 @@
 <div class="ok-shortcode-books">
 	<div>
-		<a href="https://amzn.to/3DEfUYo"
+		<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough image');">
 			<img src="/wp-content/themes/openkitchen/images/good-enough-1x.jpg"
 			     srcset="/wp-content/themes/openkitchen/images/good-enough-1x.jpg 1x,
@@ -12,7 +12,7 @@
 		is a self-care cookbook that offers personal and vulnerable storytelling,
 		delicious recipes, and encouraging advice to teach you how to accept yourself,
 		love yourself, and find peace through the act of cooking. Please
-		<a href="https://amzn.to/3DEfUYo" target="_blank"
+		<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough sidebar pre-order CTA');">pre-order now!</a></p>
 
 		<div class="ok-book-buttons">
@@ -35,7 +35,7 @@
 		   For more information on the project, see the <a href="#faq">Frequently Asked Questions</a> below.</p>
 
 		<div class="ok-book-buttons">
-			<a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');" class="button">Free PDF</a><a href="https://www.amazon.com/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Amazon.com link');" class="button">Amazon</a><a href="https://www.amazon.ca/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Amazon.ca link');" class="button">Amazon.ca</a><a href="https://www.barnesandnoble.com/w/good-and-cheap-leanne-brown/1120198012" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap B&N link');" class="button">B & N</a><a href="https://www.indiebound.org/book/9780761184997?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap IndieBound link');" class="button">IndieBound</a><a href="http://www.powells.com/book/good-and-cheap-9780761184997?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Powells link');" class="button" rel="powells-9780761184997">Powell's</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap non-profits link');" class="button">Bulk orders for $5.19/copy!</a>
+			<a href="/good-and-cheap.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');" class="button">Free PDF</a><a href="https://www.amazon.com/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Amazon.com link');" class="button">Amazon</a><a href="https://www.amazon.ca/dp/0761184996?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Amazon.ca link');" class="button">Amazon.ca</a><a href="https://www.barnesandnoble.com/w/good-and-cheap-leanne-brown/1120198012" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap B&N link');" class="button">B & N</a><a href="https://www.booksamillion.com/p/9780761184997" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Books-A-Million link');" class="button">Books-a-Million</a><a href="https://bookshop.org/books/good-and-cheap-eat-well-on-4-day/9780761184997" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Bookshop.org link');" class="button">Bookshop.org</a><a href="https://www.indiebound.org/book/9780761184997?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap IndieBound link');" class="button">IndieBound</a><a href="http://www.powells.com/book/good-and-cheap-9780761184997?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap Powells link');" class="button" rel="powells-9780761184997">Powell's</a><a href="https://www.workman.com/features/goodandcheap/" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap non-profits link');" class="button">Bulk orders for $5.19/copy!</a>
 		</div>
 	</div><div>
 		<a href="/bueno-y-barato.pdf"

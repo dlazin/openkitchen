@@ -14,6 +14,27 @@ Open Kitchen WordPress Theme © 2016 Dan Lazin
 Open Kitchen is distributed under the terms of the GNU GPL
 */
 
+:root {	
+	--color-primary: #ffa726;
+	--color-secondary: #c00;
+	--color-tertiary: #546e7a;
+	--color-background: #fff;
+	--color-background-highlight: #eceff1;
+	--color-knockout: var(--color-background);
+	--color-link: var(--color-secondary);
+	--color-placeholder: #757575;
+	--color-text: #212121;
+	--border: 1px solid var(--color-secondary);
+	--button-primary-background: var(--color-secondary);
+	--button-primary-background-hover: var(--color-knockout);
+	--button-primary-color: var(--color-knockout);
+	--button-primary-color-hover: var(--color-secondary);
+	--button-secondary-background: var(--color-knockout);
+	--button-secondary-background-hover: var(--color-secondary);
+	--button-secondary-color: var(--color-secondary);
+	--button-secondary-color-hover: var(--color-knockout);
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -25,7 +46,7 @@ Open Kitchen is distributed under the terms of the GNU GPL
 
 body,
 html {
-	color: #212121;
+	color: var(--color-text);
 	font: 16px / 28px Bitter, serif;
 	-moz-osx-font-smoothing: greyscale;
 	-webkit-font-smoothing: antialiased;
@@ -41,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #546e7a;
+	color: var(--color-tertiary);
 	font-weight: bold;
 	margin: 40px 0 16px;
 }
@@ -109,7 +130,7 @@ p {
 
 :link,
 :visited {
-	color: #c00;
+	color: var(--color-link);
 	outline: 0;
 	text-decoration: none;
 }
@@ -133,10 +154,10 @@ a:focus {
 .button,
 button,
 input[type="submit"] {
-	background: #c00;
-	border: 1px solid #c00;
+	background: var(--button-primary-background);
+	border: var(--border);
 	border-radius: 2px;
-	color: #fff;
+	color: var(--button-primary-color);
 	cursor: pointer;
 	display: inline-block;
 	font: 500 14px Bitter, serif;
@@ -162,15 +183,15 @@ button:hover,
 button:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	background: #fff;
-	color: #c00;
+	background: var(--button-primary-background-hover);
+	color: var(--button-primary-color-hover);
 	text-decoration: none;
 }
 
 .ok-comments .reply > a,
 .more-link {
-	background: #fff;
-	color: #c00;
+	background: var(--button-secondary-background);
+	color: var(--button-secondary-color);
 }
 
 .more-link {
@@ -182,15 +203,15 @@ input[type="submit"]:focus {
 .ok-comments .reply > a:focus,
 .more-link:hover,
 .more-link:focus {
-	background: #c00;
-	color: #fff;
+	background: var(--button-secondary-background-hover);
+	color: var(--button-secondary-color-hover);
 	text-decoration: none;
 }
 
 input[type="email"],
 input[type="text"],
 textarea {
-	border: 1px solid #c00;
+	border: var(--border);
 	border-radius: 2px;
 	font: 14px / 20px Avenir, sans-serif;
 	outline: 0;
@@ -211,19 +232,19 @@ input[type="text"] {
 }
 
 .ok-newsletter-field ::-webkit-input-placeholder {
-	color: #757575;
+	color: var(--color-placeholder);
 }
 
 .ok-newsletter-field :-moz-placeholder {
-	color: #757575;
+	color: var(--color-placeholder);
 }
 
 .ok-newsletter-field ::-moz-placeholder {
-	color: #757575;
+	color: var(--color-placeholder);
 }
 
 .ok-newsletter-field :-ms-input-placeholder {
-	color: #757575;
+	color: var(--color-placeholder);
 }
 
 .ok-newsletter-form .ok-newsletter-submit {
@@ -253,7 +274,7 @@ label,
 }
 
 .ok-nav {
-	background: #ffa726;
+	background: var(--color-primary);
 	bottom: 0;
 	box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
 	left: 0;
@@ -280,19 +301,19 @@ label,
 
 .ok-site-name, 
 .ok-site-name > h1 {
-	color: #fff;
+	color: var(--color-knockout);
 	font: bold 32px / 32px Bitter, serif;
 	margin: 24px 0 40px;
 	text-transform: uppercase;
 }
 
 .ok-site-name a {
-	color: #fff;
+	color: var(--color-knockout);
 }
 
 .ok-site-name a:hover,
 .ok-site-name a:focus {
-	color: #c00;
+	color: var(--color-secondary);
 }
 
 br,
@@ -336,7 +357,7 @@ br,
 }
 
 .menu a {
-	color: #212121;
+	color: var(--color-text);
 }
 
 .current-menu-item a,
@@ -383,14 +404,14 @@ br,
 }
 
 .ok-title > a {
-	color: #546e7a;
+	color: var(--color-tertiary);
 	text-decoration: none;
 }
 
 .ok-title > a:hover,
 .ok-title > a:focus,
 .ok-title-placeholder {
-	color: #c00;
+	color: var(--color-secondary);
 }
 
 .ok-video {
@@ -453,7 +474,7 @@ br,
 }
 
 .ok-shortcode-cost {
-	background: #fff;
+	background: var(--color-knockout);
 	font: bold 12px / 16px Avenir, sans-serif;
 	margin-top: 48px;
 	padding: 8px 8px 8px 20px;
@@ -491,7 +512,7 @@ br,
 }
 
 .ok-shortcode-social {
-	background: #eceff1;
+	background: var(--color-background-highlight);
 	clear: both;
 	display: none;
 	margin: 16px -40px;
@@ -511,7 +532,7 @@ br,
 }
 
 .wpurp-recipe-title {
-	color: #546e7a;
+	color: var(--color-tertiary);
 	display: block;
 	font: bold 28px / 30px Bitter, serif;
 	margin-top: 40px;
@@ -529,9 +550,9 @@ br,
 }
 
 .wpurp-title {
-	background: #546e7a;
+	background: var(--color-tertiary);
 	border-radius: 2px;
-	color: #fff;
+	color: var(--color-knockout);
 	display: inline-block;
 	font-weight: bold;
 	margin-left: -50px;
@@ -576,7 +597,7 @@ br,
 }
 
 .wpurp-recipe-ingredient-notes {
-	color: #757575;
+	color: var(--color-placeholder);
 	font-family: Avenir, sans-serif;
 	margin-left: 8px;
 }
@@ -588,7 +609,7 @@ br,
 }
 
 .wpurp-recipe-instruction::before {
-	color: #c00;
+	color: var(--color-secondary);
 	float: left;
 	font: bold 48px / 48px Bitter, serif;
 	margin-left: -60px;
@@ -691,7 +712,7 @@ br,
 }
 
 .ok-comments {
-	background: #eceff1;
+	background: var(--color-background-highlight);
 	margin: 40px -20px 0 -40px;
 	padding: 40px 40px 16px;
 }
@@ -715,7 +736,7 @@ br,
 }
 
 .comment {
-	border-top: 1px solid #c00;
+	border-top: var(--border);
 	margin: 20px 0;
 	padding-top: 19px;
 }
@@ -740,7 +761,7 @@ br,
 
 .ok-comments input[type="text"],
 .ok-comments textarea {
-	border-color: #546e7a;
+	border-color: var(--color-tertiary);
 }
 
 .ok-comments input[type="submit"] {
@@ -752,7 +773,7 @@ br,
 }
 
 .ok-sidebar {
-	border-left: 1px solid #c00;
+	border-left: var(--border);
 	-ms-flex: 0 1 auto;
 	-webkit-flex: 0 1 auto;
 	flex: 0 1 auto;
@@ -789,7 +810,7 @@ br,
 }
 
 .ok-icon-wrapper:hover {
-	background: #fff;
+	background: var(--color-knockout);
 }
 
 .ok-icon {
@@ -800,7 +821,7 @@ br,
 .ok-footer-social .ok-icon,
 .ok-shortcode-social .ok-icon,
 .ok-sidebar-social .ok-icon {
-	fill: #fff;
+	fill: var(--color-knockout);
 	margin: 7px;
 	transition: fill .5s;
 }
@@ -824,12 +845,12 @@ br,
 }
 
 .ok-icon-instagram {
-	background: #ffa726;
-	border: 1px solid #ffa726;
+	background: var(--color-primary);
+	border: 1px solid var(--color-primary);
 }
 
 .ok-icon-instagram:hover .ok-icon {
-	fill: #ffa726;
+	fill: var(--color-primary);
 }
 
 .ok-icon-pinterest {
@@ -905,7 +926,7 @@ br,
 .ok-content #ok-footer-widgets .gallery-caption,
 .ok-sidebar #ok-sidebar-widgets .gallery-caption {
 	bottom: 0;
-	color: #fff;
+	color: var(--color-knockout);
 	font: bold 20px / 20px Avenir, sans-serif;
 	left: 0;
 	margin: 0;
@@ -949,7 +970,7 @@ br,
 }
 
 .ok-footer-social {
-	background: #eceff1;
+	background: var(--color-background-highlight);
 	bottom: 0;
 	height: 28px;
 	margin: 0 -40px;
@@ -1009,7 +1030,7 @@ br,
 
 	.ok-sidebar {
 		border-left: 0;
-		border-top: 1px solid #c00;
+		border-top: var(--border);
 		margin: 39px 0 0 180px;
 		max-width: 100%;
 		padding: 20px;
@@ -1062,7 +1083,7 @@ br,
 	}
 
 	.ok-menu-control {
-		color: #fff;
+		color: var(--color-knockout);
 		display: block;
 		height: 24px;
 		-ms-user-select: none;
@@ -1073,7 +1094,7 @@ br,
 	}
 
 	.ok-menu-control > .ok-icon {
-		fill: #c00;
+		fill: var(--color-secondary);
 	}
 
 	.ok-menu {

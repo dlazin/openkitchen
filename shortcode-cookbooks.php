@@ -8,9 +8,9 @@
 			     class="ok-full-bleed" alt="Good Enough cover">
 		</a>
 
-		<p>My newest creation, <cite>Good Enough</cite>, is a self-care cookbook that offers personal and vulnerable
-		storytelling, delicious recipes, and encouraging advice to teach you how to accept yourself, love yourself, and find
-		peace through the act of cooking. <a href="/announcing-good-enough/">Learn more about it here!</a></p>
+		<p>My newest creation, <i>Good Enough</i>, is a self-care cookbook that offers personal and vulnerable storytelling,
+		delicious recipes, and encouraging advice to teach you how to accept yourself, love yourself, and find peace through
+		the act of cooking. <a href="/announcing-good-enough/">Learn more about it here!</a></p>
 
 		<div class="ok-book-buttons">
 			<a href="https://www.amazon.com/dp/1523509678?tag=leanbrow02-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Amazon.com link');" class="button">Amazon</a><a href="https://www.amazon.ca/dp/1523509678?tag=leanbrow0b-20" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Amazon.ca link');" class="button">Amazon.ca</a><a href="https://www.barnesandnoble.com/w/good-enough-leanne-brown/1140124566" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough B&N link');" class="button">B & N</a><a href="https://www.booksamillion.com/p/9781523509676" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Books-A-Million link');" class="button">Books-a-Million</a><a href="https://bookshop.org/books/good-enough-a-cookbook-embracing-the-joys-of-imperfection-in-and-out-of-the-kitchen/9781523509676" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Bookshop.org link');" class="button">Bookshop.org</a><a href="https://www.indiebound.org/book/9781523509676?aff=leannebrown" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough IndieBound link');" class="button">IndieBound</a><a href="https://www.powells.com/book/good-enough-a-cookbook-embracing-the-joys-of-imperfection-in-out-of-the-kitchen-9781523509676?partnerid=41395&p_tx" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good Enough Powells link');" class="button" rel="powells-9781523509676">Powell's</a>
@@ -24,12 +24,12 @@
 			     class="ok-full-bleed" alt="Good and Cheap cover 2nd edition">
 		</a>
 
-		<p><cite>Good and Cheap</cite> is a gorgeous cookbook for people with limited income, particularly on a $4/day food
-		stamps budget.
+		<p><i>Good and Cheap</i> is a gorgeous cookbook for people with limited income, particularly on a $4/day food stamps
+		budget.
 		<a href="/good-and-cheap.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap primary PDF');">The PDF is free</a> and has
-		been downloaded more than 15,000,000 times. For more information, see
-		<a href="/all-about-good-and-cheap/">All About <cite>Good and Cheap</cite></a> and
+		been downloaded more than 15,000,000 times. For more info, see
+		<a href="/all-about-good-and-cheap/">All About <i>Good and Cheap</i></a> and
 		<a href="/impact/">Donation Impact</a>.</p>
 
 		<div class="ok-book-buttons">
@@ -44,9 +44,9 @@
 			     class="ok-full-bleed" alt="Bueno y Barato cover">
 		</a>
 
-		<p>Now in Spanish! Ahora en Español! <cite>Bueno y Barato</cite> es un libro de recetas maravilloso para las personas
-		que se puede gastar un promedio aproximado de $4 diarios, particularmente las en el programa federal estadounidense
-		que se llamaba cupones de alimentos.
+		<p>Now in Spanish! Ahora en Español! <i>Bueno y Barato</i> es un libro de recetas maravilloso para las personas que
+		se puede gastar un promedio aproximado de $4 diarios, particularmente las en el programa federal estadounidense que
+		se llamaba cupones de alimentos.
 		<a href="/bueno-y-barato.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato primary PDF');">Un PDF, de acceso gratuito</a>,
 		ha conseguiedo mas que 15.000.000 descargas.</p>
@@ -63,9 +63,9 @@
 			     class="ok-full-bleed" alt="From Scratch cover">
 		</a>
 
-		<p>My first cookbook! <cite>From Scratch</cite> is a vegetarian cookbook intended for people just becoming
-		comfortable in their own kitchens. The price for a print copy is a little higher than you might expect because this
-		book is printed on demand (1 copy at a time) rather than in bulk.</p>
+		<p>My first cookbook! <i>From Scratch</i> is a vegetarian cookbook intended for people just becoming comfortable in
+		their own kitchens. The price for a print copy is a little higher than you might expect because this book is printed
+		on demand (1 copy at a time) rather than in bulk.</p>
 
 		<div class="ok-book-buttons">
 			<a href="/from-scratch.pdf" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch primary PDF');" class="button">Free PDF</a><a href="https://www.lulu.com/shop/leanne-brown/from-scratch/paperback/product-18314909.html" onclick="ga('send', 'event', 'Custom Events', 'Click', 'From Scratch buy link');" class="button">Buy a print copy ($26.96)</a>
@@ -79,10 +79,10 @@
 			     class="ok-full-bleed" alt="Edmonton Cooks cover">
 		</a>
 
-		<p><cite>Edmonton Cooks</cite> is a little different from my other books — it's a love letter to my hometown of
-		Edmonton, Alberta, Canada. Instead of my own recipes, it features more than 75 recipes from the city's best
-		restaurants, which I collected with the help of my co-author Tina Faiz. If you're from Edmonton or know someone who
-		is, you'll love it — and it makes a great gift!</p>
+		<p><i>Edmonton Cooks</i> is a little different from my other books — it's a love letter to my hometown of Edmonton,
+		Alberta, Canada. Instead of my own recipes, it features more than 75 recipes from the city's best restaurants, which
+		I collected with the help of my co-author Tina Faiz. If you're from Edmonton or know someone who is, you'll love it —
+		and it makes a great gift!</p>
 
 		<div class="ok-book-buttons">
 			<a href="https://www.amazon.com/Edmonton-Cooks-Signature-Recipes-Citys/dp/1927958520/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=leanbrow02-20&linkId=7ba576aca2b800d577041811d88734ba" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Edmonton Cooks Amazon.com link');" class="button">Amazon</a><a href="https://www.amazon.ca/Edmonton-Cooks-Signature-Recipes-Citys/dp/1927958520/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1473549571&sr=1-1&keywords=edmonton+cooks&linkCode=ll1&tag=leanbrow0b-20&linkId=c23ff24e69d809905b92a462ef04cfec" onclick="ga('send', 'event', 'Custom Events', 'Click', 'Edmonton Cooks Amazon.ca link');" class="button">Amazon.ca</a>

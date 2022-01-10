@@ -21,17 +21,17 @@ Open Kitchen is distributed under the terms of the GNU GPL
 	--color-background: #fff;
 	--color-background-highlight: #eceff1;
 	--color-knockout: #fff;
-	--color-link: var(--color-secondary);
+	--color-link: #d1236c;
 	--color-placeholder: #757575;
 	--color-text: #212121;
 	--border: 1px solid var(--color-secondary);
 	--button-primary-background: var(--color-secondary);
 	--button-primary-background-hover: var(--color-knockout);
 	--button-primary-color: var(--color-knockout);
-	--button-primary-color-hover: var(--color-secondary);
+	--button-primary-color-hover: var(--color-link);
 	--button-secondary-background: var(--color-knockout);
 	--button-secondary-background-hover: var(--color-secondary);
-	--button-secondary-color: var(--color-secondary);
+	--button-secondary-color: var(--color-link);
 	--button-secondary-color-hover: var(--color-knockout);
 	--width-nav: 240px;
 }
@@ -1089,7 +1089,7 @@ br,
 	}
 
 	.ok-menu-control > .ok-icon {
-		fill: var(--color-secondary);
+		fill: var(--color-knockout);
 	}
 
 	.ok-menu {

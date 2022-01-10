@@ -22,13 +22,18 @@
 				<a href="#" class="ok-menu-control" onclick="document.body.classList.toggle('ok-menu-visible')">
 					<svg class="ok-icon"><use href="#icon-bars" xlink:href="#icon-bars"></use></svg>
 				</a>
-				<div class="ok-site-name">
-					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-						   title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-							<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
-					 </a>
-					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
+				<div class="ok-logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
+					   title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+						<img src="/wp-content/themes/openkitchen/images/logo-1x.png"
+						     srcset="/wp-content/themes/openkitchen/images/logo-1x.png 1x,
+						            /wp-content/themes/openkitchen/images/logo-2x.png 2x"
+						     class="ok-logo-desktop" alt="Leanne Brown logo" width="240" height="180">
+						<img src="/wp-content/themes/openkitchen/images/logo-horiz-1x.png"
+						     srcset="/wp-content/themes/openkitchen/images/logo-horiz-1x.png 1x,
+						            /wp-content/themes/openkitchen/images/logo-horiz-2x.png 2x"
+						     class="ok-logo-mobile" alt="Leanne Brown logo" width="240" height="56">
+					</a>
 				</div>
 				<div class="ok-menu">
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>

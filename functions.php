@@ -162,6 +162,13 @@ function goodandcheap_func() {
 	return ob_get_clean();
 }
 
+add_shortcode( 'ge', 'goodenough_func' );
+function goodenough_func() {
+	ob_start();
+	get_template_part( 'shortcode', 'ge' );
+	return ob_get_clean();
+}
+
 add_shortcode( 'impactlist', 'impactlist_func' );
 function impactlist_func() {
 	ob_start();

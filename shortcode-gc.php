@@ -16,7 +16,7 @@
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Good and Cheap shortcode link');">The PDF is free</a>
 		<a href="/bueno-y-barato.pdf" target="_blank"
 		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Bueno y Barato shortcode link');">(ahora en Español!)</a>
-		and has been downloaded more than 1,000,000 times.
+		and has been downloaded more than 15,000,000 times.
 		<a href="/cookbooks/">I have more cookbooks, too!</a>
 	</p>
 	<div class="ok-book-buttons">

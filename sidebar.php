@@ -46,8 +46,8 @@
 			     class="ok-full-bleed" alt="Leanne Brown" width="300" height="180">
 		</a>
 		<p>
-			Hi! <a href="/about/">I'm Leanne Brown</a>, a home cook in Brooklyn by way of Canada.
-			I write <a href="/cookbooks/">cookbooks</a>, like the ones below!
+			Hi, <a href="/about/">I'm Leanne Brown</a>. I’m a <a href="/cookbooks/">bestselling cookbook author</a>.
+			I want to help you find peace, healing and freedom through cooking.
 		</p>
 		<ul class="ok-sidebar-social">
 			<li class="ok-icon-wrapper ok-icon-instagram">

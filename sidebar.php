@@ -73,15 +73,9 @@
 			</li>
 		</ul>
 		<div class="ok-newsletter-mobile">
-			<h3>Sign up for my mailing list!</h3>
-			<form action="//leannebrown.us20.list-manage.com/subscribe/post?u=4857bc97f09570bde4724e9f0&amp;id=d11c02c5e9"
-			      method="post" class="ok-newsletter-form" target="_blank" novalidate>
-				<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
-				<span style="position: absolute; left: -5000px;" aria-hidden="true">
-					<input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" value="" tabindex="-1">
-				</span>
-				<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
-			</form>
+			<h3>Sign up for my newsletter!</h3>
+			<a href="https://leannebrown.substack.com/" class="button" target="_blank"
+		       onclick="ga('send', 'event', 'Custom Events', 'Click', 'Substack sidebar mobile link');">Subscribe</a>
 		</div>
 	</div>
 	<div class="ok-sidebar-book">
@@ -127,15 +121,9 @@
 	</div>
 	<?php get_template_part( 'ad', 'side1' ); ?>
 	<div class="ok-newsletter-desktop">
-		<h3>Sign up for my mailing list!</h3>
-		<form action="//leannebrown.us20.list-manage.com/subscribe/post?u=4857bc97f09570bde4724e9f0&amp;id=d11c02c5e9"
-		      method="post" class="ok-newsletter-form" target="_blank" novalidate>
-			<input type="email" class="ok-newsletter-field" name="EMAIL" placeholder="email@example.com">
-			<span style="position: absolute; left: -5000px;" aria-hidden="true">
-				<input type="text" name="b_319ebcc8b4ce17f03ae19d7db_712abe1a98" value="" tabindex="-1">
-			</span>
-			<input type="submit" class="ok-newsletter-submit" name="subscribe" value="Subscribe">
-		</form>
+		<h3>Sign up for my newsletter!</h3>
+		<a href="https://leannebrown.substack.com/" class="button" target="_blank"
+		   onclick="ga('send', 'event', 'Custom Events', 'Click', 'Substack sidebar desktop link');">Subscribe</a>
 	</div>
 	<?php if ( is_active_sidebar( 'sidebar-widgets' ) ) : ?>
 	<ul class="ok-widget-list" id="ok-sidebar-widgets">
